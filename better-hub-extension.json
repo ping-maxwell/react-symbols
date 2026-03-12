@@ -1,0 +1,9 @@
+{
+	"name": "React Symbols Icons",
+	"description": "React Symbols Icons for Better Hub. This is a fork of the React Symbols.",
+	"version": "1.0.1",
+	"type": "icon-theme",
+	"main": "better-hub-icons.json",
+	"icon": "logo.png",
+	"license": "MIT"
+}
