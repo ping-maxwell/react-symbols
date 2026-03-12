@@ -4,6 +4,6 @@
 	"version": "1.0.1",
 	"type": "icon-theme",
 	"main": "better-hub-icons.json",
-	"icon": "logo.png",
+	"icon": "logo.svg",
 	"license": "MIT"
 }
