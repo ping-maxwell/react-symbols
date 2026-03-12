@@ -8,7 +8,6 @@
         x="0"
         y="0"
         maskUnits="userSpaceOnUse"
-        style={{ maskType: "luminance" }}
       >
         <path fill="#fff" d="M24 0H0v24h24z"></path>
       </mask>

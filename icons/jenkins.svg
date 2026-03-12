@@ -2,7 +2,6 @@
     fill="none"
     viewBox="0 0 24 24" >
     <mask id="mask0_21481_85"
-      style={{ maskType: "luminance" }}
       width="21"
       height="22"
       x="1"

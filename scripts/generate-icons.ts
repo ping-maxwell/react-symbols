@@ -77,6 +77,9 @@ function convertJsxToHtml(svgContent: string): string {
   // Remove {...props} spread
   result = result.replace(/\s*\{\.\.\.props\}\s*/g, " ");
 
+  // Remove JSX style attributes (e.g. style={{ isolation: "isolate" }})
+  result = result.replace(/\s*style=\{\{[^}]*\}\}/g, "");
+
   // Convert JSX attribute names to HTML equivalents
   for (const [jsxAttr, htmlAttr] of Object.entries(JSX_TO_HTML_ATTRS)) {
     result = result.replaceAll(jsxAttr, htmlAttr);

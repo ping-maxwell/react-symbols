@@ -3,7 +3,6 @@
     viewBox="0 0 24 24" >
     <circle cx="5" cy="19" r="2" fill="#EA580C"></circle>
     <mask id="mask0_20543_563"
-      style={{ maskType: "alpha" }}
       width="20"
       height="22"
       x="4"
@@ -16,7 +15,6 @@
       <circle cx="5" cy="19" r="8" stroke="#EA580C" stroke-width="2"></circle>
     </g>
     <mask id="mask1_20543_563"
-      style={{ maskType: "alpha" }}
       width="19"
       height="20"
       x="5"

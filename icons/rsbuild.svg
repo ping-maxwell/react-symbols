@@ -14,7 +14,6 @@
         x="6"
         y="13"
         maskUnits="userSpaceOnUse"
-        style={{ maskType: "luminance" }}
       >
         <path fill="#fff" d="M6.72 13.918H19.2v9.597H6.72z"></path>
       </mask>
@@ -41,7 +40,6 @@
         x="4"
         y="19"
         maskUnits="userSpaceOnUse"
-        style={{ maskType: "luminance" }}
       >
         <path fill="#fff" d="M4.8 19.678h6.72v3.836H4.8z"></path>
       </mask>
@@ -56,7 +54,6 @@
         x="15"
         y="20"
         maskUnits="userSpaceOnUse"
-        style={{ maskType: "luminance" }}
       >
         <path fill="#fff" d="M15.36 20.638h4.8v2.876h-4.8z"></path>
       </mask>
@@ -98,7 +95,6 @@
         x="5"
         y="20"
         maskUnits="userSpaceOnUse"
-        style={{ maskType: "luminance" }}
       >
         <path fill="#fff" d="M5.76 20.638h5.76v2.876H5.76z"></path>
       </mask>
@@ -113,7 +109,6 @@
         x="15"
         y="21"
         maskUnits="userSpaceOnUse"
-        style={{ maskType: "luminance" }}
       >
         <path fill="#fff" d="M15.36 21.598h3.84v1.917h-3.84z"></path>
       </mask>
@@ -172,7 +167,6 @@
         x="3"
         y="0"
         maskUnits="userSpaceOnUse"
-        style={{ maskType: "luminance" }}
       >
         <path fill="#fff" d="M3.84.486h7.68v6.712H3.84z"></path>
       </mask>
@@ -190,7 +184,6 @@
         x="2"
         y="0"
         maskUnits="userSpaceOnUse"
-        style={{ maskType: "luminance" }}
       >
         <path fill="#fff" d="M2.88.486H4.8v2.872H2.88z"></path>
       </mask>
@@ -205,7 +198,6 @@
         x="2"
         y="0"
         maskUnits="userSpaceOnUse"
-        style={{ maskType: "luminance" }}
       >
         <path fill="#fff" d="M2.88.486H9.6v5.752H2.88z"></path>
       </mask>
@@ -220,7 +212,6 @@
         x="0"
         y="0"
         maskUnits="userSpaceOnUse"
-        style={{ maskType: "luminance" }}
       >
         <path fill="#fff" d="M0 .486h24v23.028H0z"></path>
       </mask>

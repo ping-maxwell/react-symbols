@@ -1,1938 +1,2617 @@
 {
-	"$schema": "https://betterhub.dev/schemas/icon-theme-data.json",
-	"baseURL": "https://raw.githubusercontent.com/ping-maxwell/react-symbols/HEAD/icons/",
-	"defaultFile": "document",
-	"defaultFolder": "folder",
-	"defaultFolderOpen": "folderOpen",
-	"fileIcons": [
-		{
-			"name": "orval",
-			"fileExtensions": ["orval"],
-			"fileNames": [
-				"orval.config.js",
-				"orval.config.mjs",
-				"orval.config.ts",
-				"orval.config.cjs",
-				"orval.config.mts",
-				"orval.config.cts",
-				".orvalrc",
-				".orvalrc.js",
-				".orvalrc.json",
-				".orvalrc.ts",
-				".orvalrc.yaml",
-				".orvalrc.yml"
-			]
-		},
-		{
-			"name": "nim",
-			"fileExtensions": ["nim"]
-		},
-		{
-			"name": "fortran",
-			"fileExtensions": ["f90", "f95", "f03", "f", "for"]
-		},
-		{
-			"name": "tsTypes",
-			"fileExtensions": ["d.ts", "d.cts", "d.mts"]
-		},
-		{
-			"name": "statamicAntlers",
-			"fileExtensions": ["antlers.html"]
-		},
-		{
-			"name": "mcaddon",
-			"fileExtensions": [
-				"mcfunction",
-				"mcmeta",
-				"mcworld",
-				"mcstructure",
-				"mcpack",
-				"mcaddon"
-			],
-			"fileNames": [".mcattributes", ".mcdefinitions", ".mcignore"]
-		},
-		{
-			"name": "mongodb",
-			"fileExtensions": ["mongodb"]
-		},
-		{
-			"name": "I18n",
-			"fileExtensions": ["lang", "mo", "po", "pot"]
-		},
-		{
-			"name": "gleam",
-			"fileExtensions": ["gleam"]
-		},
-		{
-			"name": "reduxActions",
-			"fileExtensions": ["actions.ts"]
-		},
-		{
-			"name": "reduxEffects",
-			"fileExtensions": ["effects.ts"]
-		},
-		{
-			"name": "reduxFacade",
-			"fileExtensions": ["facade.ts"]
-		},
-		{
-			"name": "reduxReducer",
-			"fileExtensions": ["reducer.ts"]
-		},
-		{
-			"name": "reduxSelector",
-			"fileExtensions": ["selector.ts", "selectors.ts"]
-		},
-		{
-			"name": "pdf",
-			"fileExtensions": ["pdf"]
-		},
-		{
-			"name": "gear",
-			"fileExtensions": ["env", "env.example", "toml"],
-			"fileNames": [
-				"file.config",
-				"pyproject.toml",
-				".direnv",
-				".env",
-				".env.local",
-				".env.development",
-				".env.dev",
-				".env.production",
-				".env.prod",
-				".env.test"
-			]
-		},
-		{
-			"name": "pkl",
-			"fileExtensions": ["pkl"]
-		},
-		{
-			"name": "haskell",
-			"fileExtensions": ["hs"]
-		},
-		{
-			"name": "angularComponent",
-			"fileExtensions": ["component.dart", "component.ts", "component.js"]
-		},
-		{
-			"name": "angularService",
-			"fileExtensions": ["service.dart", "service.ts", "service.js"]
-		},
-		{
-			"name": "angularDirective",
-			"fileExtensions": ["directive.dart", "directive.ts", "directive.js"]
-		},
-		{
-			"name": "angularModule",
-			"fileExtensions": ["module.dart", "module.ts", "module.js"]
-		},
-		{
-			"name": "angularGuard",
-			"fileExtensions": ["guard.dart", "guard.ts", "guard.js"]
-		},
-		{
-			"name": "angularPipe",
-			"fileExtensions": ["pipe.dart", "pipe.ts", "pipe.js"]
-		},
-		{
-			"name": "earthfile",
-			"fileExtensions": ["earthlyignore"]
-		},
-		{
-			"name": "solidity",
-			"fileExtensions": ["sol"]
-		},
-		{
-			"name": "markdoc",
-			"fileExtensions": ["mdoc"],
-			"fileNames": ["markdoc.config.ts"]
-		},
-		{
-			"name": "ocalm",
-			"fileExtensions": ["ml", "mli", "cmx"]
-		},
-		{
-			"name": "stylelint",
-			"fileExtensions": ["stylelint"],
-			"fileNames": [
-				".stylelintrc",
-				"stylelint.config.js",
-				"stylelint.config.cjs",
-				".stylelintrc.json",
-				".stylelintrc.yaml",
-				".stylelintrc.yml",
-				".stylelintrc.js",
-				".stylelintrc.cjs",
-				".stylelintignore",
-				".stylelintcache"
-			]
-		},
-		{
-			"name": "lock",
-			"fileExtensions": ["lock"]
-		},
-		{
-			"name": "cmake",
-			"fileExtensions": ["cmake"],
-			"fileNames": ["cmakelists.txt", "cmakecache.txt"]
-		},
-		{
-			"name": "nunjucks",
-			"fileExtensions": ["njk", "nunjucks"]
-		},
-		{
-			"name": "visualstudio",
-			"fileExtensions": [
-				"csproj",
-				"ruleset",
-				"sln",
-				"slnx",
-				"suo",
-				"vb",
-				"vbs",
-				"vcxitems",
-				"vcxitems.filters",
-				"vcxproj",
-				"vcxproj.filters"
-			]
-		},
-		{
-			"name": "h",
-			"fileExtensions": ["h"]
-		},
-		{
-			"name": "liquid",
-			"fileExtensions": ["liquid"]
-		},
-		{
-			"name": "mdx",
-			"fileExtensions": ["mdx"]
-		},
-		{
-			"name": "svx",
-			"fileExtensions": ["svx"]
-		},
-		{
-			"name": "coldfusion",
-			"fileExtensions": ["cfml", "cfc", "lucee", "cfm"]
-		},
-		{
-			"name": "erlang",
-			"fileExtensions": ["erl", "hrl"]
-		},
-		{
-			"name": "haml",
-			"fileExtensions": ["haml"]
-		},
-		{
-			"name": "deno",
-			"fileExtensions": ["deno"],
-			"fileNames": ["deno.json", "deno.jsonc"]
-		},
-		{
-			"name": "netlify",
-			"fileExtensions": ["netlify"],
-			"fileNames": [
-				"netlify.json",
-				"netlify.yml",
-				"netlify.yaml",
-				"netlify.toml"
-			]
-		},
-		{
-			"name": "vercel",
-			"fileExtensions": ["vercel"],
-			"fileNames": [
-				".vercel",
-				"vercel.json",
-				".vercelignore",
-				"now.json",
-				".nowignore"
-			]
-		},
-		{
-			"name": "editorConfig",
-			"fileExtensions": ["editorconfig"],
-			"fileNames": [".editorconfig"]
-		},
-		{
-			"name": "tex",
-			"fileExtensions": ["tex", "sty", "dtx", "ltx"]
-		},
-		{
-			"name": "drawio",
-			"fileExtensions": ["drawio", "dio"]
-		},
-		{
-			"name": "patch",
-			"fileExtensions": ["patch"]
-		},
-		{
-			"name": "gif",
-			"fileExtensions": ["gif"]
-		},
-		{
-			"name": "video",
-			"fileExtensions": [
-				"webm",
-				"mkv",
-				"flv",
-				"vob",
-				"ogv",
-				"ogg",
-				"gifv",
-				"avi",
-				"mov",
-				"qt",
-				"wmv",
-				"yuv",
-				"rm",
-				"rmvb",
-				"mp4",
-				"m4v",
-				"mpg",
-				"mp2",
-				"mpeg",
-				"mpe",
-				"mpv",
-				"m2v"
-			]
-		},
-		{
-			"name": "audio",
-			"fileExtensions": ["mp3", "flac", "m4a", "wma", "aiff", "wav"]
-		},
-		{
-			"name": "codeGreen",
-			"fileExtensions": ["al"]
-		},
-		{
-			"name": "http",
-			"fileExtensions": ["http", "rest", "bru"]
-		},
-		{
-			"name": "codeBlue",
-			"fileExtensions": ["cls"]
-		},
-		{
-			"name": "exe",
-			"fileExtensions": ["exe", "msi"]
-		},
-		{
-			"name": "zig",
-			"fileExtensions": ["zig"]
-		},
-		{
-			"name": "proto",
-			"fileExtensions": ["proto"]
-		},
-		{
-			"name": "jsTest",
-			"fileExtensions": ["test.mjs", "spec.mjs", "test.js", "spec.js"],
-			"fileNames": ["test.js"]
-		},
-		{
-			"name": "tsTest",
-			"fileExtensions": ["test.ts", "spec.ts"],
-			"fileNames": ["test.ts", "tsconfig.test.json"]
-		},
-		{
-			"name": "reactTest",
-			"fileExtensions": ["spec.jsx", "test.jsx", "spec.tsx", "test.tsx"]
-		},
-		{
-			"name": "jenkins",
-			"fileExtensions": ["jenkinsfile", "jenkins"],
-			"fileNames": ["jenkinsfile"]
-		},
-		{
-			"name": "tsconfig",
-			"fileExtensions": ["tsconfig.json"],
-			"fileNames": [
-				"tsconfig.json",
-				"tsconfig.app.json",
-				"tsconfig.editor.json",
-				"tsconfig.spec.json",
-				"tsconfig.base.json",
-				"tsconfig.build.json",
-				"tsconfig.eslint.json",
-				"tsconfig.lib.json",
-				"tsconfig.node.json",
-				"tsconfig.e2e.json",
-				"tsconfig.web.json",
-				"tsconfig.webworker.json",
-				"tsconfig.config.json",
-				"tsconfig.vitest.json",
-				"tsconfig.cjs.json",
-				"tsconfig.esm.json",
-				"tsconfig.mjs.json"
-			]
-		},
-		{
-			"name": "terraform",
-			"fileExtensions": ["tf", "tf.json", "tfvars", "tfstate"]
-		},
-		{
-			"name": "font",
-			"fileExtensions": [
-				"woff",
-				"woff2",
-				"ttf",
-				"eot",
-				"suit",
-				"otf",
-				"bmap",
-				"fnt",
-				"odttf",
-				"ttc",
-				"font",
-				"fonts",
-				"sui",
-				"ntf",
-				"mrf"
-			]
-		},
-		{
-			"name": "elixir",
-			"fileExtensions": ["ex", "exs", "eex", "leex", "heex"]
-		},
-		{
-			"name": "storybook",
-			"fileExtensions": [
-				"stories.js",
-				"stories.jsx",
-				"stories.mdx",
-				"story.js",
-				"story.jsx",
-				"stories.ts",
-				"stories.tsx",
-				"story.ts",
-				"story.tsx",
-				"stories.svelte",
-				"story.mdx"
-			]
-		},
-		{
-			"name": "svelteTs",
-			"fileExtensions": ["svelte.ts"],
-			"fileNames": ["svelte.ts"]
-		},
-		{
-			"name": "laravel",
-			"fileExtensions": ["blade.php"]
-		},
-		{
-			"name": "twig",
-			"fileExtensions": ["twig", "html.twig"]
-		},
-		{
-			"name": "yaml",
-			"fileExtensions": [
-				"yml",
-				"yaml",
-				"yml.dist",
-				"yaml.dist",
-				"YAML-tmLanguage"
-			]
-		},
-		{
-			"name": "gradle",
-			"fileExtensions": ["gradle"],
-			"fileNames": ["gradle.properties", "gradlew", "gradle-wrapper.properties"]
-		},
-		{
-			"name": "postcss",
-			"fileExtensions": ["pcss", "sss"],
-			"fileNames": [
-				"postcss.config.js",
-				"postcss.config.cjs",
-				"postcss.config.mjs",
-				"postcss.config.ts",
-				"postcss.config.cts",
-				"postcss.config.mts",
-				".postcssrc.js",
-				".postcssrc.cjs",
-				".postcssrc.ts",
-				".postcssrc.cts",
-				".postcssrc",
-				".postcssrc.json",
-				".postcssrc.yaml",
-				".postcssrc.yml"
-			]
-		},
-		{
-			"name": "sbt",
-			"fileExtensions": ["sbt"]
-		},
-		{
-			"name": "scala",
-			"fileExtensions": ["scala", "sc"]
-		},
-		{
-			"name": "stylus",
-			"fileExtensions": ["styl"],
-			"fileNames": [".styl"]
-		},
-		{
-			"name": "prisma",
-			"fileExtensions": ["prisma"],
-			"fileNames": ["prisma.yml"]
-		},
-		{
-			"name": "astro",
-			"fileExtensions": ["astro"],
-			"fileNames": [
-				"astro.config.js",
-				"astro.config.mjs",
-				"astro.config.cjs",
-				"astro.config.ts",
-				"astro.config.cts",
-				"astro.config.mts"
-			]
-		},
-		{
-			"name": "pulumi",
-			"fileExtensions": ["pulumi"],
-			"fileNames": ["pulumi.yaml"]
-		},
-		{
-			"name": "graphql",
-			"fileExtensions": ["graphql", "gql"],
-			"fileNames": [
-				".graphqlconfig",
-				".graphqlrc",
-				".graphqlrc.json",
-				".graphqlrc.js",
-				".graphqlrc.cjs",
-				".graphqlrc.ts",
-				".graphqlrc.toml",
-				".graphqlrc.yaml",
-				".graphqlrc.yml",
-				"graphql.config.json",
-				"graphql.config.js",
-				"graphql.config.ts",
-				"graphql.config.toml",
-				"graphql.config.yaml",
-				"graphql.config.yml"
-			]
-		},
-		{
-			"name": "rust",
-			"fileExtensions": ["rs", "ron"]
-		},
-		{
-			"name": "swift",
-			"fileExtensions": ["swift"]
-		},
-		{
-			"name": "ruby",
-			"fileExtensions": ["rb", "erb"]
-		},
-		{
-			"name": "svelte",
-			"fileExtensions": ["svelte"],
-			"fileNames": ["svelte.config.js", "svelte.config.cjs"]
-		},
-		{
-			"name": "kotlin",
-			"fileExtensions": ["kt", "kts"]
-		},
-		{
-			"name": "r",
-			"fileExtensions": ["r", "rmd"],
-			"fileNames": [".Rhistory", "rslib.config.cts"]
-		},
-		{
-			"name": "pug",
-			"fileExtensions": ["jade", "pug"],
-			"fileNames": [".pug-lintrc", ".pug-lintrc.js", ".pug-lintrc.json"]
-		},
-		{
-			"name": "lua",
-			"fileExtensions": ["lua"],
-			"fileNames": [".luacheckrc"]
-		},
-		{
-			"name": "luau",
-			"fileExtensions": ["luau"]
-		},
-		{
-			"name": "bracketsBlue",
-			"fileExtensions": ["less"]
-		},
-		{
-			"name": "java",
-			"fileExtensions": ["java", "jsp"]
-		},
-		{
-			"name": "dart",
-			"fileExtensions": ["dart", "freezed.dart", "g.dart"],
-			"fileNames": [".pubignore"]
-		},
-		{
-			"name": "fsharp",
-			"fileExtensions": ["fs", "fsx", "fsi", "fsproj"]
-		},
-		{
-			"name": "crystal",
-			"fileExtensions": ["cr"]
-		},
-		{
-			"name": "csharp",
-			"fileExtensions": ["cs", "csx"]
-		},
-		{
-			"name": "razor",
-			"fileExtensions": ["cshtml"]
-		},
-		{
-			"name": "julia",
-			"fileExtensions": ["jl"]
-		},
-		{
-			"name": "shell",
-			"fileExtensions": [
-				"ssh_config",
-				"sh",
-				"ksh",
-				"csh",
-				"tcsh",
-				"zsh",
-				"bash",
-				"nu",
-				"bat",
-				"cmd",
-				"awk",
-				"fish",
-				"exp",
-				"ps1",
-				"psm1",
-				"psd1",
-				"ps1xml",
-				"psc1",
-				"pssc"
-			],
-			"fileNames": ["pre-commit", "commit-msg", "pre-push", "post-merge"]
-		},
-		{
-			"name": "python",
-			"fileExtensions": ["py", "python"],
-			"fileNames": [
-				"requirements.txt",
-				"pipfile",
-				".python-version",
-				"manifest.in",
-				"pylintrc",
-				".pylintrc",
-				"setup.cfg"
-			]
-		},
-		{
-			"name": "go",
-			"fileExtensions": ["go"]
-		},
-		{
-			"name": "goMod",
-			"fileExtensions": ["go.mod"],
-			"fileNames": ["go.mod", "go.sum", "go.work", "go.work.sum"]
-		},
-		{
-			"name": "cLang",
-			"fileExtensions": ["c", "i", "mi"]
-		},
-		{
-			"name": "cplus",
-			"fileExtensions": ["cc", "cpp", "cxx", "c++", "cp", "mm", "mii", "ii"]
-		},
-		{
-			"name": "cuda",
-			"fileExtensions": ["cu", "cuh"]
-		},
-		{
-			"name": "reactjs",
-			"fileExtensions": ["jsx"]
-		},
-		{
-			"name": "reactts",
-			"fileExtensions": ["tsx"]
-		},
-		{
-			"name": "puzzle",
-			"fileExtensions": ["vsixmanifest", "vsix"]
-		},
-		{
-			"name": "database",
-			"fileExtensions": [
-				"pdb",
-				"sql",
-				"pks",
-				"pkb",
-				"accdb",
-				"mdb",
-				"sqlite",
-				"sqlite3",
-				"pgsql",
-				"postgres",
-				"psql",
-				"db",
-				"db3"
-			]
-		},
-		{
-			"name": "sass",
-			"fileExtensions": ["scss", "sass"]
-		},
-		{
-			"name": "docker",
-			"fileExtensions": ["dockerignore", "dockerfile", "containerignore"],
-			"fileNames": [
-				"dockerfile",
-				"dockerfile.prod",
-				"dockerfile.production",
-				"dockerfile.alpha",
-				"dockerfile.beta",
-				"dockerfile.stage",
-				"dockerfile.staging",
-				"dockerfile.dev",
-				"dockerfile.development",
-				"dockerfile.local",
-				"dockerfile.test",
-				"dockerfile.testing",
-				"dockerfile.ci",
-				"dockerfile.web",
-				"dockerfile.worker"
-			]
-		},
-		{
-			"name": "xml",
-			"fileExtensions": [
-				"xml",
-				"plist",
-				"xsd",
-				"dtd",
-				"xsl",
-				"xslt",
-				"resx",
-				"iml",
-				"xquery",
-				"tmLanguage",
-				"manifest",
-				"project",
-				"xml.dist",
-				"xml.dist.sample",
-				"dmn"
-			]
-		},
-		{
-			"name": "document",
-			"fileExtensions": ["htaccess"]
-		},
-		{
-			"name": "text",
-			"fileExtensions": ["txt"],
-			"fileNames": ["robots.txt"]
-		},
-		{
-			"name": "csv",
-			"fileExtensions": ["xlsx", "xlsm", "xls", "csv", "tsv", "psv", "ods"]
-		},
-		{
-			"name": "notebook",
-			"fileExtensions": ["ipynb"]
-		},
-		{
-			"name": "svg",
-			"fileExtensions": ["svg"]
-		},
-		{
-			"name": "bracketsPurple",
-			"fileExtensions": ["css"]
-		},
-		{
-			"name": "codeOrange",
-			"fileExtensions": ["test", "html", "htm", "shtml"]
-		},
-		{
-			"name": "js",
-			"fileExtensions": ["js", "mjs", "cjs"]
-		},
-		{
-			"name": "typescript",
-			"fileExtensions": ["ts"]
-		},
-		{
-			"name": "rescript",
-			"fileExtensions": ["res"]
-		},
-		{
-			"name": "rescriptInterface",
-			"fileExtensions": ["resi"]
-		},
-		{
-			"name": "bracketsYellow",
-			"fileExtensions": ["json"]
-		},
-		{
-			"name": "markdown",
-			"fileExtensions": ["md"]
-		},
-		{
-			"name": "image",
-			"fileExtensions": [
-				"png",
-				"jpeg",
-				"jpg",
-				"ico",
-				"tif",
-				"tiff",
-				"psd",
-				"psb",
-				"ami",
-				"apx",
-				"avif",
-				"bmp",
-				"bpg",
-				"brk",
-				"cur",
-				"dds",
-				"dng",
-				"exr",
-				"fpx",
-				"gbr",
-				"img",
-				"jbig2",
-				"jb2",
-				"jng",
-				"jxr",
-				"pgf",
-				"pic",
-				"raw",
-				"webp",
-				"eps",
-				"afphoto",
-				"ase",
-				"aseprite",
-				"clip",
-				"cpt",
-				"heif",
-				"heic",
-				"kra",
-				"mdp",
-				"ora",
-				"pdn",
-				"reb",
-				"sai",
-				"tga",
-				"xcf",
-				"jfif",
-				"ppm",
-				"pbm",
-				"pgm",
-				"pnm",
-				"svgx"
-			]
-		},
-		{
-			"name": "vlang",
-			"fileExtensions": ["v"]
-		},
-		{
-			"name": "nix",
-			"fileExtensions": ["nix"]
-		},
-		{
-			"name": "func",
-			"fileExtensions": ["fc"]
-		},
-		{
-			"name": "gitlab",
-			"fileNames": [".gitlab-ci.yml"]
-		},
-		{
-			"name": "lunaria",
-			"fileNames": ["lunaria.config.json"]
-		},
-		{
-			"name": "expressive",
-			"fileNames": ["ec.config.mjs"]
-		},
-		{
-			"name": "unocss",
-			"fileNames": [
-				"uno.config.js",
-				"uno.config.mjs",
-				"uno.config.ts",
-				"uno.config.mts",
-				"unocss.config.js",
-				"unocss.config.mjs",
-				"unocss.config.ts",
-				"unocss.config.mts"
-			]
-		},
-		{
-			"name": "knip",
-			"fileNames": [
-				"knip.json",
-				"knip.jsonc",
-				".knip.json",
-				".knip.jsonc",
-				"knip.ts",
-				"knip.js",
-				"knip.config.ts",
-				"knip.config.js"
-			]
-		},
-		{
-			"name": "vanillaextract",
-			"fileNames": ["css.ts"]
-		},
-		{
-			"name": "cloudflareWorkers",
-			"fileNames": ["dev.vars"]
-		},
-		{
-			"name": "serverless",
-			"fileNames": ["serverless.yml"]
-		},
-		{
-			"name": "gatsbyjs",
-			"fileNames": [
-				"gatsby-config.js",
-				"gatsby-config.mjs",
-				"gatsby-config.ts",
-				"gatsby-node.js",
-				"gatsby-node.mjs",
-				"gatsby-node.ts",
-				"gatsby-browser.js",
-				"gatsby-browser.tsx",
-				"gatsby-ssr.js",
-				"gatsby-ssr.tsx"
-			]
-		},
-		{
-			"name": "panda",
-			"fileNames": ["panda.config.ts"]
-		},
-		{
-			"name": "sanity",
-			"fileNames": ["sanity.cli.ts", "sanity.config.ts", "sanity.theme.mjs"]
-		},
-		{
-			"name": "keystatic",
-			"fileNames": ["keystatic.page.ts", "keystatic.config.ts"]
-		},
-		{
-			"name": "bruno",
-			"fileNames": ["bruno.json"]
-		},
-		{
-			"name": "bun",
-			"fileNames": ["bun.lock", "bun.lockb", "bunfig.toml"]
-		},
-		{
-			"name": "dune",
-			"fileNames": [
-				"dune",
-				"dune-project",
-				"dune-workspace",
-				"dune-workspace.dev"
-			]
-		},
-		{
-			"name": "drizzle",
-			"fileNames": ["drizzle.config.ts"]
-		},
-		{
-			"name": "nest",
-			"fileNames": [
-				"nest-cli.json",
-				".nest-cli.json",
-				"nestconfig.json",
-				".nestconfig.json"
-			]
-		},
-		{
-			"name": "contentlayer",
-			"fileNames": ["contentlayer.config.ts", "contentlayer.config.js"]
-		},
-		{
-			"name": "docusaurus",
-			"fileNames": ["docusaurus.config.js", "docusaurus.config.ts"]
-		},
-		{
-			"name": "gulp",
-			"fileNames": [
-				"gulpfile.js",
-				"gulpfile.mjs",
-				"gulpfile.ts",
-				"gulpfile.cts",
-				"gulpfile.mts",
-				"gulpfile.babel.js",
-				"gulp.config.json"
-			]
-		},
-		{
-			"name": "cypress",
-			"fileNames": [
-				"cypress.json",
-				"cypress.env.json",
-				"cypress.config.ts",
-				"cypress.config.js",
-				"cypress.config.cjs",
-				"cypress.config.mjs"
-			]
-		},
-		{
-			"name": "cucumber",
-			"fileNames": [".feature"]
-		},
-		{
-			"name": "capacitor",
-			"fileNames": ["capacitor.config.json", "capacitor.config.ts"]
-		},
-		{
-			"name": "ionic",
-			"fileNames": ["ionic.config.json", ".io-config.json"]
-		},
-		{
-			"name": "nodemon",
-			"fileNames": ["nodemon.json", "nodemon-debug.json"]
-		},
-		{
-			"name": "node",
-			"fileNames": [
-				"package.json",
-				"package-lock.json",
-				".nvmrc",
-				".esmrc",
-				".node-version"
-			]
-		},
-		{
-			"name": "vite",
-			"fileNames": [
-				"vite.config.js",
-				"vite.config.mjs",
-				"vite.config.ts",
-				"vite.config.cjs",
-				"vite.config.mts",
-				"vite.config.cts",
-				"vite.base.config.js",
-				"vite.base.config.mjs",
-				"vite.base.config.ts",
-				"vite.base.config.cjs",
-				"vite.base.config.mts",
-				"vite.base.config.cts",
-				"vite.main.config.js",
-				"vite.main.config.mjs",
-				"vite.main.config.ts",
-				"vite.main.config.cjs",
-				"vite.main.config.mts",
-				"vite.main.config.cts",
-				"vite.preload.config.js",
-				"vite.preload.config.mjs",
-				"vite.preload.config.ts",
-				"vite.preload.config.cjs",
-				"vite.preload.config.mts",
-				"vite.preload.config.cts",
-				"vite.renderer.config.js",
-				"vite.renderer.config.mjs",
-				"vite.renderer.config.ts",
-				"vite.renderer.config.cjs",
-				"vite.renderer.config.mts",
-				"vite.renderer.config.cts",
-				"vite.config.electron.js",
-				"vite.config.electron.mjs",
-				"vite.config.electron.ts",
-				"vite.config.electron.cjs",
-				"vite.config.electron.mts",
-				"vite.config.electron.cts"
-			]
-		},
-		{
-			"name": "vitest",
-			"fileNames": [
-				"vitest.config.js",
-				"vitest.config.mjs",
-				"vitest.config.ts",
-				"vitest.config.cjs",
-				"vitest.config.mts",
-				"vitest.config.cts"
-			]
-		},
-		{
-			"name": "babel",
-			"fileNames": [
-				".babelrc",
-				".babelrc.js",
-				".babelrc.cjs",
-				".babelrc.mjs",
-				".babelrc.cts",
-				".babelrc.json",
-				"babel.config.js",
-				"babel.config.cjs",
-				"babel.config.mjs",
-				"babel.config.ts",
-				"babel.config.cts",
-				"babel.config.json"
-			]
-		},
-		{
-			"name": "prettier",
-			"fileNames": [
-				".prettierrc",
-				"prettier.config.js",
-				"prettier.config.cjs",
-				"prettier.config.mjs",
-				".prettierrc.js",
-				".prettierrc.cjs",
-				".prettierrc.mjs",
-				".prettierrc.json",
-				".prettierrc.json5",
-				".prettierrc.yaml",
-				".prettierrc.yml",
-				".prettierignore",
-				".prettierrc.toml"
-			]
-		},
-		{
-			"name": "cursor",
-			"fileNames": [".cursorrules"]
-		},
-		{
-			"name": "claude",
-			"fileNames": [
-				"CLAUDE.md",
-				".claude",
-				".clauderc",
-				"claude.json",
-				"claude.yaml",
-				"claude.yml",
-				".claude.md",
-				"claude-prompt.md",
-				".claudeignore"
-			]
-		},
-		{
-			"name": "tauri",
-			"fileNames": [
-				"tauri.conf.json",
-				"tauri.linux.json",
-				"tauri.windows.json",
-				"tauri.macos.json",
-				"tauri.android.json",
-				"tauri.ios.json",
-				"tauri.conf.toml",
-				"tauri.linux.toml",
-				"tauri.windows.toml",
-				"tauri.macos.toml",
-				"tauri.android.toml",
-				"tauri.ios.toml"
-			]
-		},
-		{
-			"name": "pnpm",
-			"fileNames": ["pnpm-lock.yaml", "pnpm-workspace.yaml", ".pnpmfile.cjs"]
-		},
-		{
-			"name": "npm",
-			"fileNames": [".npmignore", ".npmrc"]
-		},
-		{
-			"name": "perl",
-			"fileNames": [".perl"]
-		},
-		{
-			"name": "jest",
-			"fileNames": [
-				"jest.config.js",
-				"jest.config.cjs",
-				"jest.config.mjs",
-				"jest.config.ts",
-				"jest.config.cts",
-				"jest.config.mts",
-				"jest.config.json",
-				"jest.e2e.config.js",
-				"jest.e2e.config.cjs",
-				"jest.e2e.config.mjs",
-				"jest.e2e.config.ts",
-				"jest.e2e.config.cts",
-				"jest.e2e.config.mts",
-				"jest.e2e.config.json",
-				"jest.e2e.json",
-				"jest-unit.config.js",
-				"jest-e2e.config.js",
-				"jest-e2e.config.cjs",
-				"jest-e2e.config.mjs",
-				"jest-e2e.config.ts",
-				"jest-e2e.config.cts",
-				"jest-e2e.config.mts",
-				"jest-e2e.config.json",
-				"jest-e2e.json",
-				"jest-github-actions-reporter.js",
-				"jest.setup.js",
-				"jest.setup.ts",
-				"jest.json",
-				".jestrc",
-				".jestrc.js",
-				".jestrc.json",
-				"jest.teardown.js"
-			]
-		},
-		{
-			"name": "dockerPink",
-			"fileNames": [
-				"docker-compose.yml",
-				"docker-compose.override.yml",
-				"docker-compose.prod.yml",
-				"docker-compose.production.yml",
-				"docker-compose.alpha.yml",
-				"docker-compose.beta.yml",
-				"docker-compose.stage.yml",
-				"docker-compose.staging.yml",
-				"docker-compose.dev.yml",
-				"docker-compose.development.yml",
-				"docker-compose.local.yml",
-				"docker-compose.test.yml",
-				"docker-compose.testing.yml",
-				"docker-compose.ci.yml",
-				"docker-compose.web.yml",
-				"docker-compose.worker.yml",
-				"docker-compose.yaml",
-				"docker-compose.override.yaml",
-				"docker-compose.prod.yaml",
-				"docker-compose.production.yaml",
-				"docker-compose.alpha.yaml",
-				"docker-compose.beta.yaml",
-				"docker-compose.stage.yaml",
-				"docker-compose.staging.yaml",
-				"docker-compose.dev.yaml",
-				"docker-compose.development.yaml",
-				"docker-compose.local.yaml",
-				"docker-compose.test.yaml",
-				"docker-compose.testing.yaml",
-				"docker-compose.ci.yaml",
-				"docker-compose.web.yaml",
-				"docker-compose.worker.yaml",
-				"compose.yml",
-				"compose.override.yml",
-				"compose.prod.yml",
-				"compose.production.yml",
-				"compose.alpha.yml",
-				"compose.beta.yml",
-				"compose.stage.yml",
-				"compose.staging.yml",
-				"compose.dev.yml",
-				"compose.development.yml",
-				"compose.local.yml",
-				"compose.test.yml",
-				"compose.testing.yml",
-				"compose.ci.yml",
-				"compose.web.yml",
-				"compose.worker.yml",
-				"compose.yaml",
-				"compose.override.yaml",
-				"compose.prod.yaml",
-				"compose.production.yaml",
-				"compose.alpha.yaml",
-				"compose.beta.yaml",
-				"compose.stage.yaml",
-				"compose.staging.yaml",
-				"compose.dev.yaml",
-				"compose.development.yaml",
-				"compose.local.yaml",
-				"compose.test.yaml",
-				"compose.testing.yaml",
-				"compose.ci.yaml",
-				"compose.web.yaml",
-				"compose.worker.yaml"
-			]
-		},
-		{
-			"name": "dockerGreen",
-			"fileNames": [
-				"docker-healthcheck",
-				"docker-healthcheck.prod",
-				"docker-healthcheck.production",
-				"docker-healthcheck.alpha",
-				"docker-healthcheck.beta",
-				"docker-healthcheck.stage",
-				"docker-healthcheck.staging",
-				"docker-healthcheck.dev",
-				"docker-healthcheck.development",
-				"docker-healthcheck.local",
-				"docker-healthcheck.test",
-				"docker-healthcheck.testing",
-				"docker-healthcheck.ci",
-				"docker-healthcheck.web",
-				"docker-healthcheck.worker"
-			]
-		},
-		{
-			"name": "firebase",
-			"fileNames": [
-				"firebase.json",
-				".firebaserc",
-				"firestore.rules",
-				"firestore.indexes.json"
-			]
-		},
-		{
-			"name": "dts",
-			"fileNames": [".d.ts"]
-		},
-		{
-			"name": "ignore",
-			"fileNames": [".vscodeignore"]
-		},
-		{
-			"name": "hugo",
-			"fileNames": [".hugo_build.lock"]
-		},
-		{
-			"name": "yarn",
-			"fileNames": ["yarn.lock", "yarn"]
-		},
-		{
-			"name": "rome",
-			"fileNames": ["rome.json"]
-		},
-		{
-			"name": "biome",
-			"fileNames": ["biome.json", "biome.jsonc"]
-		},
-		{
-			"name": "eslint",
-			"fileNames": [
-				"eslint.config.js",
-				"eslint.config.ts",
-				"eslint.config.cjs",
-				"eslint.config.mjs",
-				".eslintrc.js",
-				".eslintrc.cjs",
-				".eslintrc.yaml",
-				".eslintrc.yml",
-				".eslintrc.json",
-				".eslintrc-md.js",
-				".eslintrc-jsdoc.js",
-				".eslintrc",
-				".eslintignore",
-				".eslintcache"
-			]
-		},
-		{
-			"name": "git",
-			"fileNames": [
-				".git-blame-ignore",
-				".gitignore",
-				".gitignore-global",
-				".gitignore_global",
-				".gitconfig",
-				".gitattributes",
-				".gitmodules",
-				".gitkeep",
-				".gitinclude",
-				"git-history"
-			]
-		},
-		{
-			"name": "swc",
-			"fileNames": [".swcrc"]
-		},
-		{
-			"name": "license",
-			"fileNames": [
-				"license",
-				"license-agpl",
-				"license-apache",
-				"license-bsd",
-				"license-mit",
-				"license-gpl",
-				"license-lgpl",
-				"license.md",
-				"license.rst",
-				"license.txt"
-			]
-		},
-		{
-			"name": "next",
-			"fileNames": [
-				"next.config.js",
-				"next.config.mjs",
-				"next.config.ts",
-				"next.config.mts"
-			]
-		},
-		{
-			"name": "nuxt",
-			"fileNames": [
-				".nuxtrc",
-				".nuxtignore",
-				"nuxt.config.js",
-				"nuxt.config.mjs",
-				"nuxt.config.ts",
-				"nuxt.config.mts"
-			]
-		},
-		{
-			"name": "fresh",
-			"fileNames": [
-				"fresh.config.js",
-				"fresh.config.mjs",
-				"fresh.config.ts",
-				"fresh.config.mts"
-			]
-		},
-		{
-			"name": "angular",
-			"fileNames": ["angular-cli.json", ".angular-cli.json", "angular.json"]
-		},
-		{
-			"name": "turborepo",
-			"fileNames": ["turbo.json"]
-		},
-		{
-			"name": "tailwind",
-			"fileNames": [
-				"tailwind.js",
-				"tailwind.ts",
-				"tailwind.config.js",
-				"tailwind.config.cjs",
-				"tailwind.config.mjs",
-				"tailwind.config.ts",
-				"tailwind.config.cts",
-				"tailwind.config.mts"
-			]
-		},
-		{
-			"name": "webpack",
-			"fileNames": [
-				"webpack.js",
-				"webpack.cjs",
-				"webpack.mjs",
-				"webpack.ts",
-				"webpack.cts",
-				"webpack.mts",
-				"webpack.base.js",
-				"webpack.base.cjs",
-				"webpack.base.mjs",
-				"webpack.base.ts",
-				"webpack.base.cts",
-				"webpack.base.mts",
-				"webpack.config.js",
-				"webpack.config.cjs",
-				"webpack.config.mjs",
-				"webpack.config.ts",
-				"webpack.config.cts",
-				"webpack.config.mts",
-				"webpack.common.js",
-				"webpack.common.cjs",
-				"webpack.common.mjs",
-				"webpack.common.ts",
-				"webpack.common.cts",
-				"webpack.common.mts",
-				"webpack.config.common.js",
-				"webpack.config.common.cjs",
-				"webpack.config.common.mjs",
-				"webpack.config.common.ts",
-				"webpack.config.common.cts",
-				"webpack.config.common.mts",
-				"webpack.config.common.babel.js",
-				"webpack.config.common.babel.ts",
-				"webpack.dev.js",
-				"webpack.dev.cjs",
-				"webpack.dev.mjs",
-				"webpack.dev.ts",
-				"webpack.dev.cts",
-				"webpack.dev.mts",
-				"webpack.development.js",
-				"webpack.development.cjs",
-				"webpack.development.mjs",
-				"webpack.development.ts",
-				"webpack.development.cts",
-				"webpack.development.mts",
-				"webpack.config.dev.js",
-				"webpack.config.dev.cjs",
-				"webpack.config.dev.mjs",
-				"webpack.config.dev.ts",
-				"webpack.config.dev.cts",
-				"webpack.config.dev.mts",
-				"webpack.config.dev.babel.js",
-				"webpack.config.dev.babel.ts",
-				"webpack.mix.js",
-				"webpack.mix.cjs",
-				"webpack.mix.mjs",
-				"webpack.mix.ts",
-				"webpack.mix.cts",
-				"webpack.mix.mts",
-				"webpack.prod.js",
-				"webpack.prod.cjs",
-				"webpack.prod.mjs",
-				"webpack.prod.ts",
-				"webpack.prod.cts",
-				"webpack.prod.mts",
-				"webpack.prod.config.js",
-				"webpack.prod.config.cjs",
-				"webpack.prod.config.mjs",
-				"webpack.prod.config.ts",
-				"webpack.prod.config.cts",
-				"webpack.prod.config.mts",
-				"webpack.production.js",
-				"webpack.production.cjs",
-				"webpack.production.mjs",
-				"webpack.production.ts",
-				"webpack.production.cts",
-				"webpack.production.mts",
-				"webpack.server.js",
-				"webpack.server.cjs",
-				"webpack.server.mjs",
-				"webpack.server.ts",
-				"webpack.server.cts",
-				"webpack.server.mts",
-				"webpack.client.js",
-				"webpack.client.cjs",
-				"webpack.client.mjs",
-				"webpack.client.ts",
-				"webpack.client.cts",
-				"webpack.client.mts",
-				"webpack.config.server.js",
-				"webpack.config.server.cjs",
-				"webpack.config.server.mjs",
-				"webpack.config.server.ts",
-				"webpack.config.server.cts",
-				"webpack.config.server.mts",
-				"webpack.config.client.js",
-				"webpack.config.client.cjs",
-				"webpack.config.client.mjs",
-				"webpack.config.client.ts",
-				"webpack.config.client.cts",
-				"webpack.config.client.mts",
-				"webpack.config.production.babel.js",
-				"webpack.config.production.babel.ts",
-				"webpack.config.prod.babel.js",
-				"webpack.config.prod.babel.cjs",
-				"webpack.config.prod.babel.mjs",
-				"webpack.config.prod.babel.ts",
-				"webpack.config.prod.babel.cts",
-				"webpack.config.prod.babel.mts",
-				"webpack.config.prod.js",
-				"webpack.config.prod.cjs",
-				"webpack.config.prod.mjs",
-				"webpack.config.prod.ts",
-				"webpack.config.prod.cts",
-				"webpack.config.prod.mts",
-				"webpack.config.production.js",
-				"webpack.config.production.cjs",
-				"webpack.config.production.mjs",
-				"webpack.config.production.ts",
-				"webpack.config.production.cts",
-				"webpack.config.production.mts",
-				"webpack.config.staging.js",
-				"webpack.config.staging.cjs",
-				"webpack.config.staging.mjs",
-				"webpack.config.staging.ts",
-				"webpack.config.staging.cts",
-				"webpack.config.staging.mts",
-				"webpack.config.babel.js",
-				"webpack.config.babel.ts",
-				"webpack.config.base.babel.js",
-				"webpack.config.base.babel.ts",
-				"webpack.config.base.js",
-				"webpack.config.base.cjs",
-				"webpack.config.base.mjs",
-				"webpack.config.base.ts",
-				"webpack.config.base.cts",
-				"webpack.config.base.mts",
-				"webpack.config.staging.babel.js",
-				"webpack.config.staging.babel.ts",
-				"webpack.config.coffee",
-				"webpack.config.test.js",
-				"webpack.config.test.cjs",
-				"webpack.config.test.mjs",
-				"webpack.config.test.ts",
-				"webpack.config.test.cts",
-				"webpack.config.test.mts",
-				"webpack.config.vendor.js",
-				"webpack.config.vendor.cjs",
-				"webpack.config.vendor.mjs",
-				"webpack.config.vendor.ts",
-				"webpack.config.vendor.cts",
-				"webpack.config.vendor.mts",
-				"webpack.config.vendor.production.js",
-				"webpack.config.vendor.production.cjs",
-				"webpack.config.vendor.production.mjs",
-				"webpack.config.vendor.production.ts",
-				"webpack.config.vendor.production.cts",
-				"webpack.config.vendor.production.mts",
-				"webpack.test.js",
-				"webpack.test.cjs",
-				"webpack.test.mjs",
-				"webpack.test.ts",
-				"webpack.test.cts",
-				"webpack.test.mts",
-				"webpack.dist.js",
-				"webpack.dist.cjs",
-				"webpack.dist.mjs",
-				"webpack.dist.ts",
-				"webpack.dist.cts",
-				"webpack.dist.mts",
-				"webpackfile.js",
-				"webpackfile.cjs",
-				"webpackfile.mjs",
-				"webpackfile.ts",
-				"webpackfile.cts",
-				"webpackfile.mts"
-			]
-		},
-		{
-			"name": "rsbuild",
-			"fileNames": [
-				"rsbuild.config.mjs",
-				"rsbuild.config.ts",
-				"rsbuild.config.js",
-				"rsbuild.config.cjs",
-				"rsbuild.config.mts",
-				"rsbuild.config.cts"
-			]
-		},
-		{
-			"name": "rspack",
-			"fileNames": [
-				"rspack.config.js",
-				"rspack.config.ts",
-				"rspack.config.cjs",
-				"rspack.config.mjs"
-			]
-		},
-		{
-			"name": "rslib",
-			"fileNames": [
-				"rslib.config.mjs",
-				"rslib.config.ts",
-				"rslib.config.js",
-				"rslib.config.cjs",
-				"rslib.config.mts"
-			]
-		},
-		{
-			"name": "oxlint",
-			"fileNames": [".oxlintrc.json", ".oxlintignore"]
-		},
-		{
-			"name": "nx",
-			"fileNames": [".nxignore", "nx.json"]
-		},
-		{
-			"name": "yummacss",
-			"fileNames": [
-				"yumma.config.cjs",
-				"yumma.config.js",
-				"yumma.config.mjs",
-				"yumma.config.ts",
-				"yumma.css",
-				"yummacss.css"
-			]
-		},
-		{
-			"name": "shadcn",
-			"fileNames": ["components.json"]
-		}
-	],
-	"folderIcons": [
-		{
-			"name": "folderI18n",
-			"folderNames": ["i18n", "locales"]
-		},
-		{
-			"name": "folderLock",
-			"folderNames": [".venv", "auth"]
-		},
-		{
-			"name": "folderGitlab",
-			"folderNames": [".gitlab"]
-		},
-		{
-			"name": "folderCore",
-			"folderNames": ["core"]
-		},
-		{
-			"name": "folderModels",
-			"folderNames": ["models"]
-		},
-		{
-			"name": "folderInterfaces",
-			"folderNames": ["interface", "interfaces"]
-		},
-		{
-			"name": "folderHelpers",
-			"folderNames": ["helpers"]
-		},
-		{
-			"name": "folderShared",
-			"folderNames": ["shared"]
-		},
-		{
-			"name": "folderRouter",
-			"folderNames": ["router", "routers", "routes"]
-		},
-		{
-			"name": "folderModules",
-			"folderNames": ["modules"]
-		},
-		{
-			"name": "folderAngular",
-			"folderNames": ["angular", ".angular"]
-		},
-		{
-			"name": "folderServices",
-			"folderNames": ["services", "service"]
-		},
-		{
-			"name": "folderProviders",
-			"folderNames": ["providers", "provider"]
-		},
-		{
-			"name": "folderInterceptors",
-			"folderNames": ["interceptors", "interceptor"]
-		},
-		{
-			"name": "folderPipes",
-			"folderNames": ["pipes", "pipe"]
-		},
-		{
-			"name": "folderFirebase",
-			"folderNames": ["firebase"]
-		},
-		{
-			"name": "folderSupabase",
-			"folderNames": ["supabase"]
-		},
-		{
-			"name": "folderDrizzle",
-			"folderNames": [".drizzle", "drizzle"]
-		},
-		{
-			"name": "folderTina",
-			"folderNames": ["tina"]
-		},
-		{
-			"name": "folderTauri",
-			"folderNames": ["src-tauri", "tauri"]
-		},
-		{
-			"name": "folderClaude",
-			"folderNames": [
-				".claude-code",
-				".claude",
-				"claude",
-				"claude-config",
-				"claude-prompts"
-			]
-		},
-		{
-			"name": "folderVercel",
-			"folderNames": [".vercel", "vercel"]
-		},
-		{
-			"name": "folderTarget",
-			"folderNames": ["target"]
-		},
-		{
-			"name": "folderIOS",
-			"folderNames": ["ios"]
-		},
-		{
-			"name": "folderContext",
-			"folderNames": ["context", "contexts"]
-		},
-		{
-			"name": "folderMiddleware",
-			"folderNames": ["middleware", "middlewares"]
-		},
-		{
-			"name": "folderSkyCode",
-			"folderNames": ["pages", "screens"]
-		},
-		{
-			"name": "folderUtils",
-			"folderNames": ["util", "utils", "utility", "utilities", "tools", "lib"]
-		},
-		{
-			"name": "folderDatabase",
-			"folderNames": ["db", "database", "databases"]
-		},
-		{
-			"name": "folderLayout",
-			"folderNames": ["layouts", "layout"]
-		},
-		{
-			"name": "folderDocker",
-			"folderNames": ["docker", "docker-compose", "dockerfiles", ".docker"]
-		},
-		{
-			"name": "folderRed",
-			"folderNames": [".git", "api", ".turbo"]
-		},
-		{
-			"name": "folderGraphql",
-			"folderNames": ["graphql", "gql"]
-		},
-		{
-			"name": "folderApp",
-			"folderNames": ["app", "apps"]
-		},
-		{
-			"name": "folderConfig",
-			"folderNames": ["config"]
-		},
-		{
-			"name": "folderGreen",
-			"folderNames": ["env", ".nuxt"]
-		},
-		{
-			"name": "folderOrange",
-			"folderNames": ["server"]
-		},
-		{
-			"name": "folderBlue",
-			"folderNames": ["client"]
-		},
-		{
-			"name": "folderPurpleCode",
-			"folderNames": ["css", "styles"]
-		},
-		{
-			"name": "folderRedCode",
-			"folderNames": ["scripts", "test", "tests", "spec", "specs"]
-		},
-		{
-			"name": "folderPinkOutline",
-			"folderNames": ["storybook"]
-		},
-		{
-			"name": "folderPinkCode",
-			"folderNames": ["stories"]
-		},
-		{
-			"name": "folderBlueCode",
-			"folderNames": ["types"]
-		},
-		{
-			"name": "folderPink",
-			"folderNames": [".storybook"]
-		},
-		{
-			"name": "folderVSCode",
-			"folderNames": [".vscode"]
-		},
-		{
-			"name": "folderGray",
-			"folderNames": [".next", ".nx"]
-		},
-		{
-			"name": "folderPurple",
-			"folderNames": [".contentlayer"]
-		},
-		{
-			"name": "folderNodeModules",
-			"folderNames": ["node_modules"]
-		},
-		{
-			"name": "folderAws",
-			"folderNames": ["aws"]
-		},
-		{
-			"name": "folderAzure",
-			"folderNames": [".azure"]
-		},
-		{
-			"name": "folderNginx",
-			"folderNames": ["nginx"]
-		},
-		{
-			"name": "folderReact",
-			"folderNames": ["react"]
-		},
-		{
-			"name": "folderGithub",
-			"folderNames": [".github"]
-		},
-		{
-			"name": "folderPurpleOutline",
-			"folderNames": ["public", "dist", "out"]
-		},
-		{
-			"name": "folderOrangeCode",
-			"folderNames": ["source", "src"]
-		},
-		{
-			"name": "folderDocuments",
-			"folderNames": ["doc", "docs", "documents", "documentation", "files"]
-		},
-		{
-			"name": "folderBuild",
-			"folderNames": ["build"]
-		},
-		{
-			"name": "folderAssets",
-			"folderNames": ["assets", "resources", "static"]
-		},
-		{
-			"name": "folderGreenCode",
-			"folderNames": ["components"]
-		},
-		{
-			"name": "folderPrisma",
-			"folderNames": ["prisma"]
-		},
-		{
-			"name": "folderAndroid",
-			"folderNames": ["android"]
-		},
-		{
-			"name": "folderMail",
-			"folderNames": ["mail", "mails", "emails", "smtp", "mailers"]
-		},
-		{
-			"name": "folderImages",
-			"folderNames": ["image", "images"]
-		},
-		{
-			"name": "folderBruno",
-			"folderNames": [".bru", "bru"]
-		},
-		{
-			"name": "folderMongoDB",
-			"folderNames": ["mongo", "mongodb"]
-		},
-		{
-			"name": "folderHooks",
-			"folderNames": ["hooks"]
-		},
-		{
-			"name": "folderConstants",
-			"folderNames": ["constants"]
-		},
-		{
-			"name": "folderExpo",
-			"folderNames": ["expo", ".expo"]
-		},
-		{
-			"name": "folderGradle",
-			"folderNames": ["gradle", ".gradle"]
-		},
-		{
-			"name": "folderFonts",
-			"folderNames": ["fonts", "font"]
-		},
-		{
-			"name": "folderJs",
-			"folderNames": ["js", "javascript"]
-		},
-		{
-			"name": "folderSass",
-			"folderNames": ["sass", "scss"]
-		}
-	]
+  "$schema": "https://betterhub.dev/schemas/icon-theme-data.json",
+  "baseURL": "https://raw.githubusercontent.com/pheralb/react-symbols/HEAD/icons/",
+  "defaultFile": "document",
+  "defaultFolder": "folder",
+  "defaultFolderOpen": "folderOpen",
+  "fileIcons": [
+    {
+      "name": "orval",
+      "fileExtensions": [
+        "orval"
+      ],
+      "fileNames": [
+        "orval.config.js",
+        "orval.config.mjs",
+        "orval.config.ts",
+        "orval.config.cjs",
+        "orval.config.mts",
+        "orval.config.cts",
+        ".orvalrc",
+        ".orvalrc.js",
+        ".orvalrc.json",
+        ".orvalrc.ts",
+        ".orvalrc.yaml",
+        ".orvalrc.yml"
+      ]
+    },
+    {
+      "name": "nim",
+      "fileExtensions": [
+        "nim"
+      ]
+    },
+    {
+      "name": "fortran",
+      "fileExtensions": [
+        "f90",
+        "f95",
+        "f03",
+        "f",
+        "for"
+      ]
+    },
+    {
+      "name": "tsTypes",
+      "fileExtensions": [
+        "d.ts",
+        "d.cts",
+        "d.mts"
+      ]
+    },
+    {
+      "name": "statamicAntlers",
+      "fileExtensions": [
+        "antlers.html"
+      ]
+    },
+    {
+      "name": "mcaddon",
+      "fileExtensions": [
+        "mcfunction",
+        "mcmeta",
+        "mcworld",
+        "mcstructure",
+        "mcpack",
+        "mcaddon"
+      ],
+      "fileNames": [
+        ".mcattributes",
+        ".mcdefinitions",
+        ".mcignore"
+      ]
+    },
+    {
+      "name": "mongodb",
+      "fileExtensions": [
+        "mongodb"
+      ]
+    },
+    {
+      "name": "I18n",
+      "fileExtensions": [
+        "lang",
+        "mo",
+        "po",
+        "pot"
+      ]
+    },
+    {
+      "name": "gleam",
+      "fileExtensions": [
+        "gleam"
+      ]
+    },
+    {
+      "name": "reduxActions",
+      "fileExtensions": [
+        "actions.ts"
+      ]
+    },
+    {
+      "name": "reduxEffects",
+      "fileExtensions": [
+        "effects.ts"
+      ]
+    },
+    {
+      "name": "reduxFacade",
+      "fileExtensions": [
+        "facade.ts"
+      ]
+    },
+    {
+      "name": "reduxReducer",
+      "fileExtensions": [
+        "reducer.ts"
+      ]
+    },
+    {
+      "name": "reduxSelector",
+      "fileExtensions": [
+        "selector.ts",
+        "selectors.ts"
+      ]
+    },
+    {
+      "name": "pdf",
+      "fileExtensions": [
+        "pdf"
+      ]
+    },
+    {
+      "name": "gear",
+      "fileExtensions": [
+        "env",
+        "env.example",
+        "toml"
+      ],
+      "fileNames": [
+        "file.config",
+        "pyproject.toml",
+        ".direnv",
+        ".env",
+        ".env.local",
+        ".env.development",
+        ".env.dev",
+        ".env.production",
+        ".env.prod",
+        ".env.test"
+      ]
+    },
+    {
+      "name": "pkl",
+      "fileExtensions": [
+        "pkl"
+      ]
+    },
+    {
+      "name": "haskell",
+      "fileExtensions": [
+        "hs"
+      ]
+    },
+    {
+      "name": "angularComponent",
+      "fileExtensions": [
+        "component.dart",
+        "component.ts",
+        "component.js"
+      ]
+    },
+    {
+      "name": "angularService",
+      "fileExtensions": [
+        "service.dart",
+        "service.ts",
+        "service.js"
+      ]
+    },
+    {
+      "name": "angularDirective",
+      "fileExtensions": [
+        "directive.dart",
+        "directive.ts",
+        "directive.js"
+      ]
+    },
+    {
+      "name": "angularModule",
+      "fileExtensions": [
+        "module.dart",
+        "module.ts",
+        "module.js"
+      ]
+    },
+    {
+      "name": "angularGuard",
+      "fileExtensions": [
+        "guard.dart",
+        "guard.ts",
+        "guard.js"
+      ]
+    },
+    {
+      "name": "angularPipe",
+      "fileExtensions": [
+        "pipe.dart",
+        "pipe.ts",
+        "pipe.js"
+      ]
+    },
+    {
+      "name": "earthfile",
+      "fileExtensions": [
+        "earthlyignore"
+      ]
+    },
+    {
+      "name": "solidity",
+      "fileExtensions": [
+        "sol"
+      ]
+    },
+    {
+      "name": "markdoc",
+      "fileExtensions": [
+        "mdoc"
+      ],
+      "fileNames": [
+        "markdoc.config.ts"
+      ]
+    },
+    {
+      "name": "ocalm",
+      "fileExtensions": [
+        "ml",
+        "mli",
+        "cmx"
+      ]
+    },
+    {
+      "name": "stylelint",
+      "fileExtensions": [
+        "stylelint"
+      ],
+      "fileNames": [
+        ".stylelintrc",
+        "stylelint.config.js",
+        "stylelint.config.cjs",
+        ".stylelintrc.json",
+        ".stylelintrc.yaml",
+        ".stylelintrc.yml",
+        ".stylelintrc.js",
+        ".stylelintrc.cjs",
+        ".stylelintignore",
+        ".stylelintcache"
+      ]
+    },
+    {
+      "name": "lock",
+      "fileExtensions": [
+        "lock"
+      ]
+    },
+    {
+      "name": "cmake",
+      "fileExtensions": [
+        "cmake"
+      ],
+      "fileNames": [
+        "cmakelists.txt",
+        "cmakecache.txt"
+      ]
+    },
+    {
+      "name": "nunjucks",
+      "fileExtensions": [
+        "njk",
+        "nunjucks"
+      ]
+    },
+    {
+      "name": "visualstudio",
+      "fileExtensions": [
+        "csproj",
+        "ruleset",
+        "sln",
+        "slnx",
+        "suo",
+        "vb",
+        "vbs",
+        "vcxitems",
+        "vcxitems.filters",
+        "vcxproj",
+        "vcxproj.filters"
+      ]
+    },
+    {
+      "name": "h",
+      "fileExtensions": [
+        "h"
+      ]
+    },
+    {
+      "name": "liquid",
+      "fileExtensions": [
+        "liquid"
+      ]
+    },
+    {
+      "name": "mdx",
+      "fileExtensions": [
+        "mdx"
+      ]
+    },
+    {
+      "name": "svx",
+      "fileExtensions": [
+        "svx"
+      ]
+    },
+    {
+      "name": "coldfusion",
+      "fileExtensions": [
+        "cfml",
+        "cfc",
+        "lucee",
+        "cfm"
+      ]
+    },
+    {
+      "name": "erlang",
+      "fileExtensions": [
+        "erl",
+        "hrl"
+      ]
+    },
+    {
+      "name": "haml",
+      "fileExtensions": [
+        "haml"
+      ]
+    },
+    {
+      "name": "deno",
+      "fileExtensions": [
+        "deno"
+      ],
+      "fileNames": [
+        "deno.json",
+        "deno.jsonc"
+      ]
+    },
+    {
+      "name": "netlify",
+      "fileExtensions": [
+        "netlify"
+      ],
+      "fileNames": [
+        "netlify.json",
+        "netlify.yml",
+        "netlify.yaml",
+        "netlify.toml"
+      ]
+    },
+    {
+      "name": "vercel",
+      "fileExtensions": [
+        "vercel"
+      ],
+      "fileNames": [
+        ".vercel",
+        "vercel.json",
+        ".vercelignore",
+        "now.json",
+        ".nowignore"
+      ]
+    },
+    {
+      "name": "editorConfig",
+      "fileExtensions": [
+        "editorconfig"
+      ],
+      "fileNames": [
+        ".editorconfig"
+      ]
+    },
+    {
+      "name": "tex",
+      "fileExtensions": [
+        "tex",
+        "sty",
+        "dtx",
+        "ltx"
+      ]
+    },
+    {
+      "name": "drawio",
+      "fileExtensions": [
+        "drawio",
+        "dio"
+      ]
+    },
+    {
+      "name": "patch",
+      "fileExtensions": [
+        "patch"
+      ]
+    },
+    {
+      "name": "gif",
+      "fileExtensions": [
+        "gif"
+      ]
+    },
+    {
+      "name": "video",
+      "fileExtensions": [
+        "webm",
+        "mkv",
+        "flv",
+        "vob",
+        "ogv",
+        "ogg",
+        "gifv",
+        "avi",
+        "mov",
+        "qt",
+        "wmv",
+        "yuv",
+        "rm",
+        "rmvb",
+        "mp4",
+        "m4v",
+        "mpg",
+        "mp2",
+        "mpeg",
+        "mpe",
+        "mpv",
+        "m2v"
+      ]
+    },
+    {
+      "name": "audio",
+      "fileExtensions": [
+        "mp3",
+        "flac",
+        "m4a",
+        "wma",
+        "aiff",
+        "wav"
+      ]
+    },
+    {
+      "name": "codeGreen",
+      "fileExtensions": [
+        "al"
+      ]
+    },
+    {
+      "name": "http",
+      "fileExtensions": [
+        "http",
+        "rest",
+        "bru"
+      ]
+    },
+    {
+      "name": "codeBlue",
+      "fileExtensions": [
+        "cls"
+      ]
+    },
+    {
+      "name": "exe",
+      "fileExtensions": [
+        "exe",
+        "msi"
+      ]
+    },
+    {
+      "name": "zig",
+      "fileExtensions": [
+        "zig"
+      ]
+    },
+    {
+      "name": "proto",
+      "fileExtensions": [
+        "proto"
+      ]
+    },
+    {
+      "name": "jsTest",
+      "fileExtensions": [
+        "test.mjs",
+        "spec.mjs",
+        "test.js",
+        "spec.js"
+      ],
+      "fileNames": [
+        "test.js"
+      ]
+    },
+    {
+      "name": "tsTest",
+      "fileExtensions": [
+        "test.ts",
+        "spec.ts"
+      ],
+      "fileNames": [
+        "test.ts",
+        "tsconfig.test.json"
+      ]
+    },
+    {
+      "name": "reactTest",
+      "fileExtensions": [
+        "spec.jsx",
+        "test.jsx",
+        "spec.tsx",
+        "test.tsx"
+      ]
+    },
+    {
+      "name": "jenkins",
+      "fileExtensions": [
+        "jenkinsfile",
+        "jenkins"
+      ],
+      "fileNames": [
+        "jenkinsfile"
+      ]
+    },
+    {
+      "name": "tsconfig",
+      "fileExtensions": [
+        "tsconfig.json"
+      ],
+      "fileNames": [
+        "tsconfig.json",
+        "tsconfig.app.json",
+        "tsconfig.editor.json",
+        "tsconfig.spec.json",
+        "tsconfig.base.json",
+        "tsconfig.build.json",
+        "tsconfig.eslint.json",
+        "tsconfig.lib.json",
+        "tsconfig.node.json",
+        "tsconfig.e2e.json",
+        "tsconfig.web.json",
+        "tsconfig.webworker.json",
+        "tsconfig.config.json",
+        "tsconfig.vitest.json",
+        "tsconfig.cjs.json",
+        "tsconfig.esm.json",
+        "tsconfig.mjs.json"
+      ]
+    },
+    {
+      "name": "terraform",
+      "fileExtensions": [
+        "tf",
+        "tf.json",
+        "tfvars",
+        "tfstate"
+      ]
+    },
+    {
+      "name": "font",
+      "fileExtensions": [
+        "woff",
+        "woff2",
+        "ttf",
+        "eot",
+        "suit",
+        "otf",
+        "bmap",
+        "fnt",
+        "odttf",
+        "ttc",
+        "font",
+        "fonts",
+        "sui",
+        "ntf",
+        "mrf"
+      ]
+    },
+    {
+      "name": "elixir",
+      "fileExtensions": [
+        "ex",
+        "exs",
+        "eex",
+        "leex",
+        "heex"
+      ]
+    },
+    {
+      "name": "storybook",
+      "fileExtensions": [
+        "stories.js",
+        "stories.jsx",
+        "stories.mdx",
+        "story.js",
+        "story.jsx",
+        "stories.ts",
+        "stories.tsx",
+        "story.ts",
+        "story.tsx",
+        "stories.svelte",
+        "story.mdx"
+      ]
+    },
+    {
+      "name": "svelteTs",
+      "fileExtensions": [
+        "svelte.ts"
+      ],
+      "fileNames": [
+        "svelte.ts"
+      ]
+    },
+    {
+      "name": "laravel",
+      "fileExtensions": [
+        "blade.php"
+      ]
+    },
+    {
+      "name": "twig",
+      "fileExtensions": [
+        "twig",
+        "html.twig"
+      ]
+    },
+    {
+      "name": "yaml",
+      "fileExtensions": [
+        "yml",
+        "yaml",
+        "yml.dist",
+        "yaml.dist",
+        "YAML-tmLanguage"
+      ]
+    },
+    {
+      "name": "gradle",
+      "fileExtensions": [
+        "gradle"
+      ],
+      "fileNames": [
+        "gradle.properties",
+        "gradlew",
+        "gradle-wrapper.properties"
+      ]
+    },
+    {
+      "name": "postcss",
+      "fileExtensions": [
+        "pcss",
+        "sss"
+      ],
+      "fileNames": [
+        "postcss.config.js",
+        "postcss.config.cjs",
+        "postcss.config.mjs",
+        "postcss.config.ts",
+        "postcss.config.cts",
+        "postcss.config.mts",
+        ".postcssrc.js",
+        ".postcssrc.cjs",
+        ".postcssrc.ts",
+        ".postcssrc.cts",
+        ".postcssrc",
+        ".postcssrc.json",
+        ".postcssrc.yaml",
+        ".postcssrc.yml"
+      ]
+    },
+    {
+      "name": "sbt",
+      "fileExtensions": [
+        "sbt"
+      ]
+    },
+    {
+      "name": "scala",
+      "fileExtensions": [
+        "scala",
+        "sc"
+      ]
+    },
+    {
+      "name": "stylus",
+      "fileExtensions": [
+        "styl"
+      ],
+      "fileNames": [
+        ".styl"
+      ]
+    },
+    {
+      "name": "prisma",
+      "fileExtensions": [
+        "prisma"
+      ],
+      "fileNames": [
+        "prisma.yml"
+      ]
+    },
+    {
+      "name": "astro",
+      "fileExtensions": [
+        "astro"
+      ],
+      "fileNames": [
+        "astro.config.js",
+        "astro.config.mjs",
+        "astro.config.cjs",
+        "astro.config.ts",
+        "astro.config.cts",
+        "astro.config.mts"
+      ]
+    },
+    {
+      "name": "pulumi",
+      "fileExtensions": [
+        "pulumi"
+      ],
+      "fileNames": [
+        "pulumi.yaml"
+      ]
+    },
+    {
+      "name": "graphql",
+      "fileExtensions": [
+        "graphql",
+        "gql"
+      ],
+      "fileNames": [
+        ".graphqlconfig",
+        ".graphqlrc",
+        ".graphqlrc.json",
+        ".graphqlrc.js",
+        ".graphqlrc.cjs",
+        ".graphqlrc.ts",
+        ".graphqlrc.toml",
+        ".graphqlrc.yaml",
+        ".graphqlrc.yml",
+        "graphql.config.json",
+        "graphql.config.js",
+        "graphql.config.ts",
+        "graphql.config.toml",
+        "graphql.config.yaml",
+        "graphql.config.yml"
+      ]
+    },
+    {
+      "name": "rust",
+      "fileExtensions": [
+        "rs",
+        "ron"
+      ]
+    },
+    {
+      "name": "swift",
+      "fileExtensions": [
+        "swift"
+      ]
+    },
+    {
+      "name": "ruby",
+      "fileExtensions": [
+        "rb",
+        "erb"
+      ]
+    },
+    {
+      "name": "svelte",
+      "fileExtensions": [
+        "svelte"
+      ],
+      "fileNames": [
+        "svelte.config.js",
+        "svelte.config.cjs"
+      ]
+    },
+    {
+      "name": "kotlin",
+      "fileExtensions": [
+        "kt",
+        "kts"
+      ]
+    },
+    {
+      "name": "r",
+      "fileExtensions": [
+        "r",
+        "rmd"
+      ],
+      "fileNames": [
+        ".Rhistory",
+        "rslib.config.cts"
+      ]
+    },
+    {
+      "name": "pug",
+      "fileExtensions": [
+        "jade",
+        "pug"
+      ],
+      "fileNames": [
+        ".pug-lintrc",
+        ".pug-lintrc.js",
+        ".pug-lintrc.json"
+      ]
+    },
+    {
+      "name": "lua",
+      "fileExtensions": [
+        "lua"
+      ],
+      "fileNames": [
+        ".luacheckrc"
+      ]
+    },
+    {
+      "name": "luau",
+      "fileExtensions": [
+        "luau"
+      ]
+    },
+    {
+      "name": "bracketsBlue",
+      "fileExtensions": [
+        "less"
+      ]
+    },
+    {
+      "name": "java",
+      "fileExtensions": [
+        "java",
+        "jsp"
+      ]
+    },
+    {
+      "name": "dart",
+      "fileExtensions": [
+        "dart",
+        "freezed.dart",
+        "g.dart"
+      ],
+      "fileNames": [
+        ".pubignore"
+      ]
+    },
+    {
+      "name": "fsharp",
+      "fileExtensions": [
+        "fs",
+        "fsx",
+        "fsi",
+        "fsproj"
+      ]
+    },
+    {
+      "name": "crystal",
+      "fileExtensions": [
+        "cr"
+      ]
+    },
+    {
+      "name": "csharp",
+      "fileExtensions": [
+        "cs",
+        "csx"
+      ]
+    },
+    {
+      "name": "razor",
+      "fileExtensions": [
+        "cshtml"
+      ]
+    },
+    {
+      "name": "julia",
+      "fileExtensions": [
+        "jl"
+      ]
+    },
+    {
+      "name": "shell",
+      "fileExtensions": [
+        "ssh_config",
+        "sh",
+        "ksh",
+        "csh",
+        "tcsh",
+        "zsh",
+        "bash",
+        "nu",
+        "bat",
+        "cmd",
+        "awk",
+        "fish",
+        "exp",
+        "ps1",
+        "psm1",
+        "psd1",
+        "ps1xml",
+        "psc1",
+        "pssc"
+      ],
+      "fileNames": [
+        "pre-commit",
+        "commit-msg",
+        "pre-push",
+        "post-merge"
+      ]
+    },
+    {
+      "name": "python",
+      "fileExtensions": [
+        "py",
+        "python"
+      ],
+      "fileNames": [
+        "requirements.txt",
+        "pipfile",
+        ".python-version",
+        "manifest.in",
+        "pylintrc",
+        ".pylintrc",
+        "setup.cfg"
+      ]
+    },
+    {
+      "name": "go",
+      "fileExtensions": [
+        "go"
+      ]
+    },
+    {
+      "name": "goMod",
+      "fileExtensions": [
+        "go.mod"
+      ],
+      "fileNames": [
+        "go.mod",
+        "go.sum",
+        "go.work",
+        "go.work.sum"
+      ]
+    },
+    {
+      "name": "cLang",
+      "fileExtensions": [
+        "c",
+        "i",
+        "mi"
+      ]
+    },
+    {
+      "name": "cplus",
+      "fileExtensions": [
+        "cc",
+        "cpp",
+        "cxx",
+        "c++",
+        "cp",
+        "mm",
+        "mii",
+        "ii"
+      ]
+    },
+    {
+      "name": "cuda",
+      "fileExtensions": [
+        "cu",
+        "cuh"
+      ]
+    },
+    {
+      "name": "reactjs",
+      "fileExtensions": [
+        "jsx"
+      ]
+    },
+    {
+      "name": "reactts",
+      "fileExtensions": [
+        "tsx"
+      ]
+    },
+    {
+      "name": "puzzle",
+      "fileExtensions": [
+        "vsixmanifest",
+        "vsix"
+      ]
+    },
+    {
+      "name": "database",
+      "fileExtensions": [
+        "pdb",
+        "sql",
+        "pks",
+        "pkb",
+        "accdb",
+        "mdb",
+        "sqlite",
+        "sqlite3",
+        "pgsql",
+        "postgres",
+        "psql",
+        "db",
+        "db3"
+      ]
+    },
+    {
+      "name": "sass",
+      "fileExtensions": [
+        "scss",
+        "sass"
+      ]
+    },
+    {
+      "name": "docker",
+      "fileExtensions": [
+        "dockerignore",
+        "dockerfile",
+        "containerignore"
+      ],
+      "fileNames": [
+        "dockerfile",
+        "dockerfile.prod",
+        "dockerfile.production",
+        "dockerfile.alpha",
+        "dockerfile.beta",
+        "dockerfile.stage",
+        "dockerfile.staging",
+        "dockerfile.dev",
+        "dockerfile.development",
+        "dockerfile.local",
+        "dockerfile.test",
+        "dockerfile.testing",
+        "dockerfile.ci",
+        "dockerfile.web",
+        "dockerfile.worker"
+      ]
+    },
+    {
+      "name": "xml",
+      "fileExtensions": [
+        "xml",
+        "plist",
+        "xsd",
+        "dtd",
+        "xsl",
+        "xslt",
+        "resx",
+        "iml",
+        "xquery",
+        "tmLanguage",
+        "manifest",
+        "project",
+        "xml.dist",
+        "xml.dist.sample",
+        "dmn"
+      ]
+    },
+    {
+      "name": "document",
+      "fileExtensions": [
+        "htaccess"
+      ]
+    },
+    {
+      "name": "text",
+      "fileExtensions": [
+        "txt"
+      ],
+      "fileNames": [
+        "robots.txt"
+      ]
+    },
+    {
+      "name": "csv",
+      "fileExtensions": [
+        "xlsx",
+        "xlsm",
+        "xls",
+        "csv",
+        "tsv",
+        "psv",
+        "ods"
+      ]
+    },
+    {
+      "name": "notebook",
+      "fileExtensions": [
+        "ipynb"
+      ]
+    },
+    {
+      "name": "svg",
+      "fileExtensions": [
+        "svg"
+      ]
+    },
+    {
+      "name": "bracketsPurple",
+      "fileExtensions": [
+        "css"
+      ]
+    },
+    {
+      "name": "codeOrange",
+      "fileExtensions": [
+        "test",
+        "html",
+        "htm",
+        "shtml"
+      ]
+    },
+    {
+      "name": "js",
+      "fileExtensions": [
+        "js",
+        "mjs",
+        "cjs"
+      ]
+    },
+    {
+      "name": "typescript",
+      "fileExtensions": [
+        "ts"
+      ]
+    },
+    {
+      "name": "rescript",
+      "fileExtensions": [
+        "res"
+      ]
+    },
+    {
+      "name": "rescriptInterface",
+      "fileExtensions": [
+        "resi"
+      ]
+    },
+    {
+      "name": "bracketsYellow",
+      "fileExtensions": [
+        "json"
+      ]
+    },
+    {
+      "name": "markdown",
+      "fileExtensions": [
+        "md"
+      ]
+    },
+    {
+      "name": "image",
+      "fileExtensions": [
+        "png",
+        "jpeg",
+        "jpg",
+        "ico",
+        "tif",
+        "tiff",
+        "psd",
+        "psb",
+        "ami",
+        "apx",
+        "avif",
+        "bmp",
+        "bpg",
+        "brk",
+        "cur",
+        "dds",
+        "dng",
+        "exr",
+        "fpx",
+        "gbr",
+        "img",
+        "jbig2",
+        "jb2",
+        "jng",
+        "jxr",
+        "pgf",
+        "pic",
+        "raw",
+        "webp",
+        "eps",
+        "afphoto",
+        "ase",
+        "aseprite",
+        "clip",
+        "cpt",
+        "heif",
+        "heic",
+        "kra",
+        "mdp",
+        "ora",
+        "pdn",
+        "reb",
+        "sai",
+        "tga",
+        "xcf",
+        "jfif",
+        "ppm",
+        "pbm",
+        "pgm",
+        "pnm",
+        "svgx"
+      ]
+    },
+    {
+      "name": "vlang",
+      "fileExtensions": [
+        "v"
+      ]
+    },
+    {
+      "name": "nix",
+      "fileExtensions": [
+        "nix"
+      ]
+    },
+    {
+      "name": "func",
+      "fileExtensions": [
+        "fc"
+      ]
+    },
+    {
+      "name": "gitlab",
+      "fileNames": [
+        ".gitlab-ci.yml"
+      ]
+    },
+    {
+      "name": "lunaria",
+      "fileNames": [
+        "lunaria.config.json"
+      ]
+    },
+    {
+      "name": "expressive",
+      "fileNames": [
+        "ec.config.mjs"
+      ]
+    },
+    {
+      "name": "unocss",
+      "fileNames": [
+        "uno.config.js",
+        "uno.config.mjs",
+        "uno.config.ts",
+        "uno.config.mts",
+        "unocss.config.js",
+        "unocss.config.mjs",
+        "unocss.config.ts",
+        "unocss.config.mts"
+      ]
+    },
+    {
+      "name": "knip",
+      "fileNames": [
+        "knip.json",
+        "knip.jsonc",
+        ".knip.json",
+        ".knip.jsonc",
+        "knip.ts",
+        "knip.js",
+        "knip.config.ts",
+        "knip.config.js"
+      ]
+    },
+    {
+      "name": "vanillaextract",
+      "fileNames": [
+        "css.ts"
+      ]
+    },
+    {
+      "name": "cloudflareWorkers",
+      "fileNames": [
+        "dev.vars"
+      ]
+    },
+    {
+      "name": "serverless",
+      "fileNames": [
+        "serverless.yml"
+      ]
+    },
+    {
+      "name": "gatsbyjs",
+      "fileNames": [
+        "gatsby-config.js",
+        "gatsby-config.mjs",
+        "gatsby-config.ts",
+        "gatsby-node.js",
+        "gatsby-node.mjs",
+        "gatsby-node.ts",
+        "gatsby-browser.js",
+        "gatsby-browser.tsx",
+        "gatsby-ssr.js",
+        "gatsby-ssr.tsx"
+      ]
+    },
+    {
+      "name": "panda",
+      "fileNames": [
+        "panda.config.ts"
+      ]
+    },
+    {
+      "name": "sanity",
+      "fileNames": [
+        "sanity.cli.ts",
+        "sanity.config.ts",
+        "sanity.theme.mjs"
+      ]
+    },
+    {
+      "name": "keystatic",
+      "fileNames": [
+        "keystatic.page.ts",
+        "keystatic.config.ts"
+      ]
+    },
+    {
+      "name": "bruno",
+      "fileNames": [
+        "bruno.json"
+      ]
+    },
+    {
+      "name": "bun",
+      "fileNames": [
+        "bun.lock",
+        "bun.lockb",
+        "bunfig.toml"
+      ]
+    },
+    {
+      "name": "dune",
+      "fileNames": [
+        "dune",
+        "dune-project",
+        "dune-workspace",
+        "dune-workspace.dev"
+      ]
+    },
+    {
+      "name": "drizzle",
+      "fileNames": [
+        "drizzle.config.ts"
+      ]
+    },
+    {
+      "name": "nest",
+      "fileNames": [
+        "nest-cli.json",
+        ".nest-cli.json",
+        "nestconfig.json",
+        ".nestconfig.json"
+      ]
+    },
+    {
+      "name": "contentlayer",
+      "fileNames": [
+        "contentlayer.config.ts",
+        "contentlayer.config.js"
+      ]
+    },
+    {
+      "name": "docusaurus",
+      "fileNames": [
+        "docusaurus.config.js",
+        "docusaurus.config.ts"
+      ]
+    },
+    {
+      "name": "gulp",
+      "fileNames": [
+        "gulpfile.js",
+        "gulpfile.mjs",
+        "gulpfile.ts",
+        "gulpfile.cts",
+        "gulpfile.mts",
+        "gulpfile.babel.js",
+        "gulp.config.json"
+      ]
+    },
+    {
+      "name": "cypress",
+      "fileNames": [
+        "cypress.json",
+        "cypress.env.json",
+        "cypress.config.ts",
+        "cypress.config.js",
+        "cypress.config.cjs",
+        "cypress.config.mjs"
+      ]
+    },
+    {
+      "name": "cucumber",
+      "fileNames": [
+        ".feature"
+      ]
+    },
+    {
+      "name": "capacitor",
+      "fileNames": [
+        "capacitor.config.json",
+        "capacitor.config.ts"
+      ]
+    },
+    {
+      "name": "ionic",
+      "fileNames": [
+        "ionic.config.json",
+        ".io-config.json"
+      ]
+    },
+    {
+      "name": "nodemon",
+      "fileNames": [
+        "nodemon.json",
+        "nodemon-debug.json"
+      ]
+    },
+    {
+      "name": "node",
+      "fileNames": [
+        "package.json",
+        "package-lock.json",
+        ".nvmrc",
+        ".esmrc",
+        ".node-version"
+      ]
+    },
+    {
+      "name": "vite",
+      "fileNames": [
+        "vite.config.js",
+        "vite.config.mjs",
+        "vite.config.ts",
+        "vite.config.cjs",
+        "vite.config.mts",
+        "vite.config.cts",
+        "vite.base.config.js",
+        "vite.base.config.mjs",
+        "vite.base.config.ts",
+        "vite.base.config.cjs",
+        "vite.base.config.mts",
+        "vite.base.config.cts",
+        "vite.main.config.js",
+        "vite.main.config.mjs",
+        "vite.main.config.ts",
+        "vite.main.config.cjs",
+        "vite.main.config.mts",
+        "vite.main.config.cts",
+        "vite.preload.config.js",
+        "vite.preload.config.mjs",
+        "vite.preload.config.ts",
+        "vite.preload.config.cjs",
+        "vite.preload.config.mts",
+        "vite.preload.config.cts",
+        "vite.renderer.config.js",
+        "vite.renderer.config.mjs",
+        "vite.renderer.config.ts",
+        "vite.renderer.config.cjs",
+        "vite.renderer.config.mts",
+        "vite.renderer.config.cts",
+        "vite.config.electron.js",
+        "vite.config.electron.mjs",
+        "vite.config.electron.ts",
+        "vite.config.electron.cjs",
+        "vite.config.electron.mts",
+        "vite.config.electron.cts"
+      ]
+    },
+    {
+      "name": "vitest",
+      "fileNames": [
+        "vitest.config.js",
+        "vitest.config.mjs",
+        "vitest.config.ts",
+        "vitest.config.cjs",
+        "vitest.config.mts",
+        "vitest.config.cts"
+      ]
+    },
+    {
+      "name": "babel",
+      "fileNames": [
+        ".babelrc",
+        ".babelrc.js",
+        ".babelrc.cjs",
+        ".babelrc.mjs",
+        ".babelrc.cts",
+        ".babelrc.json",
+        "babel.config.js",
+        "babel.config.cjs",
+        "babel.config.mjs",
+        "babel.config.ts",
+        "babel.config.cts",
+        "babel.config.json"
+      ]
+    },
+    {
+      "name": "prettier",
+      "fileNames": [
+        ".prettierrc",
+        "prettier.config.js",
+        "prettier.config.cjs",
+        "prettier.config.mjs",
+        ".prettierrc.js",
+        ".prettierrc.cjs",
+        ".prettierrc.mjs",
+        ".prettierrc.json",
+        ".prettierrc.json5",
+        ".prettierrc.yaml",
+        ".prettierrc.yml",
+        ".prettierignore",
+        ".prettierrc.toml"
+      ]
+    },
+    {
+      "name": "cursor",
+      "fileNames": [
+        ".cursorrules"
+      ]
+    },
+    {
+      "name": "claude",
+      "fileNames": [
+        "CLAUDE.md",
+        ".claude",
+        ".clauderc",
+        "claude.json",
+        "claude.yaml",
+        "claude.yml",
+        ".claude.md",
+        "claude-prompt.md",
+        ".claudeignore"
+      ]
+    },
+    {
+      "name": "tauri",
+      "fileNames": [
+        "tauri.conf.json",
+        "tauri.linux.json",
+        "tauri.windows.json",
+        "tauri.macos.json",
+        "tauri.android.json",
+        "tauri.ios.json",
+        "tauri.conf.toml",
+        "tauri.linux.toml",
+        "tauri.windows.toml",
+        "tauri.macos.toml",
+        "tauri.android.toml",
+        "tauri.ios.toml"
+      ]
+    },
+    {
+      "name": "pnpm",
+      "fileNames": [
+        "pnpm-lock.yaml",
+        "pnpm-workspace.yaml",
+        ".pnpmfile.cjs"
+      ]
+    },
+    {
+      "name": "npm",
+      "fileNames": [
+        ".npmignore",
+        ".npmrc"
+      ]
+    },
+    {
+      "name": "perl",
+      "fileNames": [
+        ".perl"
+      ]
+    },
+    {
+      "name": "jest",
+      "fileNames": [
+        "jest.config.js",
+        "jest.config.cjs",
+        "jest.config.mjs",
+        "jest.config.ts",
+        "jest.config.cts",
+        "jest.config.mts",
+        "jest.config.json",
+        "jest.e2e.config.js",
+        "jest.e2e.config.cjs",
+        "jest.e2e.config.mjs",
+        "jest.e2e.config.ts",
+        "jest.e2e.config.cts",
+        "jest.e2e.config.mts",
+        "jest.e2e.config.json",
+        "jest.e2e.json",
+        "jest-unit.config.js",
+        "jest-e2e.config.js",
+        "jest-e2e.config.cjs",
+        "jest-e2e.config.mjs",
+        "jest-e2e.config.ts",
+        "jest-e2e.config.cts",
+        "jest-e2e.config.mts",
+        "jest-e2e.config.json",
+        "jest-e2e.json",
+        "jest-github-actions-reporter.js",
+        "jest.setup.js",
+        "jest.setup.ts",
+        "jest.json",
+        ".jestrc",
+        ".jestrc.js",
+        ".jestrc.json",
+        "jest.teardown.js"
+      ]
+    },
+    {
+      "name": "dockerPink",
+      "fileNames": [
+        "docker-compose.yml",
+        "docker-compose.override.yml",
+        "docker-compose.prod.yml",
+        "docker-compose.production.yml",
+        "docker-compose.alpha.yml",
+        "docker-compose.beta.yml",
+        "docker-compose.stage.yml",
+        "docker-compose.staging.yml",
+        "docker-compose.dev.yml",
+        "docker-compose.development.yml",
+        "docker-compose.local.yml",
+        "docker-compose.test.yml",
+        "docker-compose.testing.yml",
+        "docker-compose.ci.yml",
+        "docker-compose.web.yml",
+        "docker-compose.worker.yml",
+        "docker-compose.yaml",
+        "docker-compose.override.yaml",
+        "docker-compose.prod.yaml",
+        "docker-compose.production.yaml",
+        "docker-compose.alpha.yaml",
+        "docker-compose.beta.yaml",
+        "docker-compose.stage.yaml",
+        "docker-compose.staging.yaml",
+        "docker-compose.dev.yaml",
+        "docker-compose.development.yaml",
+        "docker-compose.local.yaml",
+        "docker-compose.test.yaml",
+        "docker-compose.testing.yaml",
+        "docker-compose.ci.yaml",
+        "docker-compose.web.yaml",
+        "docker-compose.worker.yaml",
+        "compose.yml",
+        "compose.override.yml",
+        "compose.prod.yml",
+        "compose.production.yml",
+        "compose.alpha.yml",
+        "compose.beta.yml",
+        "compose.stage.yml",
+        "compose.staging.yml",
+        "compose.dev.yml",
+        "compose.development.yml",
+        "compose.local.yml",
+        "compose.test.yml",
+        "compose.testing.yml",
+        "compose.ci.yml",
+        "compose.web.yml",
+        "compose.worker.yml",
+        "compose.yaml",
+        "compose.override.yaml",
+        "compose.prod.yaml",
+        "compose.production.yaml",
+        "compose.alpha.yaml",
+        "compose.beta.yaml",
+        "compose.stage.yaml",
+        "compose.staging.yaml",
+        "compose.dev.yaml",
+        "compose.development.yaml",
+        "compose.local.yaml",
+        "compose.test.yaml",
+        "compose.testing.yaml",
+        "compose.ci.yaml",
+        "compose.web.yaml",
+        "compose.worker.yaml"
+      ]
+    },
+    {
+      "name": "dockerGreen",
+      "fileNames": [
+        "docker-healthcheck",
+        "docker-healthcheck.prod",
+        "docker-healthcheck.production",
+        "docker-healthcheck.alpha",
+        "docker-healthcheck.beta",
+        "docker-healthcheck.stage",
+        "docker-healthcheck.staging",
+        "docker-healthcheck.dev",
+        "docker-healthcheck.development",
+        "docker-healthcheck.local",
+        "docker-healthcheck.test",
+        "docker-healthcheck.testing",
+        "docker-healthcheck.ci",
+        "docker-healthcheck.web",
+        "docker-healthcheck.worker"
+      ]
+    },
+    {
+      "name": "firebase",
+      "fileNames": [
+        "firebase.json",
+        ".firebaserc",
+        "firestore.rules",
+        "firestore.indexes.json"
+      ]
+    },
+    {
+      "name": "dts",
+      "fileNames": [
+        ".d.ts"
+      ]
+    },
+    {
+      "name": "ignore",
+      "fileNames": [
+        ".vscodeignore"
+      ]
+    },
+    {
+      "name": "hugo",
+      "fileNames": [
+        ".hugo_build.lock"
+      ]
+    },
+    {
+      "name": "yarn",
+      "fileNames": [
+        "yarn.lock",
+        "yarn"
+      ]
+    },
+    {
+      "name": "rome",
+      "fileNames": [
+        "rome.json"
+      ]
+    },
+    {
+      "name": "biome",
+      "fileNames": [
+        "biome.json",
+        "biome.jsonc"
+      ]
+    },
+    {
+      "name": "eslint",
+      "fileNames": [
+        "eslint.config.js",
+        "eslint.config.ts",
+        "eslint.config.cjs",
+        "eslint.config.mjs",
+        ".eslintrc.js",
+        ".eslintrc.cjs",
+        ".eslintrc.yaml",
+        ".eslintrc.yml",
+        ".eslintrc.json",
+        ".eslintrc-md.js",
+        ".eslintrc-jsdoc.js",
+        ".eslintrc",
+        ".eslintignore",
+        ".eslintcache"
+      ]
+    },
+    {
+      "name": "git",
+      "fileNames": [
+        ".git-blame-ignore",
+        ".gitignore",
+        ".gitignore-global",
+        ".gitignore_global",
+        ".gitconfig",
+        ".gitattributes",
+        ".gitmodules",
+        ".gitkeep",
+        ".gitinclude",
+        "git-history"
+      ]
+    },
+    {
+      "name": "swc",
+      "fileNames": [
+        ".swcrc"
+      ]
+    },
+    {
+      "name": "license",
+      "fileNames": [
+        "license",
+        "license-agpl",
+        "license-apache",
+        "license-bsd",
+        "license-mit",
+        "license-gpl",
+        "license-lgpl",
+        "license.md",
+        "license.rst",
+        "license.txt"
+      ]
+    },
+    {
+      "name": "next",
+      "fileNames": [
+        "next.config.js",
+        "next.config.mjs",
+        "next.config.ts",
+        "next.config.mts"
+      ]
+    },
+    {
+      "name": "nuxt",
+      "fileNames": [
+        ".nuxtrc",
+        ".nuxtignore",
+        "nuxt.config.js",
+        "nuxt.config.mjs",
+        "nuxt.config.ts",
+        "nuxt.config.mts"
+      ]
+    },
+    {
+      "name": "fresh",
+      "fileNames": [
+        "fresh.config.js",
+        "fresh.config.mjs",
+        "fresh.config.ts",
+        "fresh.config.mts"
+      ]
+    },
+    {
+      "name": "angular",
+      "fileNames": [
+        "angular-cli.json",
+        ".angular-cli.json",
+        "angular.json"
+      ]
+    },
+    {
+      "name": "turborepo",
+      "fileNames": [
+        "turbo.json"
+      ]
+    },
+    {
+      "name": "tailwind",
+      "fileNames": [
+        "tailwind.js",
+        "tailwind.ts",
+        "tailwind.config.js",
+        "tailwind.config.cjs",
+        "tailwind.config.mjs",
+        "tailwind.config.ts",
+        "tailwind.config.cts",
+        "tailwind.config.mts"
+      ]
+    },
+    {
+      "name": "webpack",
+      "fileNames": [
+        "webpack.js",
+        "webpack.cjs",
+        "webpack.mjs",
+        "webpack.ts",
+        "webpack.cts",
+        "webpack.mts",
+        "webpack.base.js",
+        "webpack.base.cjs",
+        "webpack.base.mjs",
+        "webpack.base.ts",
+        "webpack.base.cts",
+        "webpack.base.mts",
+        "webpack.config.js",
+        "webpack.config.cjs",
+        "webpack.config.mjs",
+        "webpack.config.ts",
+        "webpack.config.cts",
+        "webpack.config.mts",
+        "webpack.common.js",
+        "webpack.common.cjs",
+        "webpack.common.mjs",
+        "webpack.common.ts",
+        "webpack.common.cts",
+        "webpack.common.mts",
+        "webpack.config.common.js",
+        "webpack.config.common.cjs",
+        "webpack.config.common.mjs",
+        "webpack.config.common.ts",
+        "webpack.config.common.cts",
+        "webpack.config.common.mts",
+        "webpack.config.common.babel.js",
+        "webpack.config.common.babel.ts",
+        "webpack.dev.js",
+        "webpack.dev.cjs",
+        "webpack.dev.mjs",
+        "webpack.dev.ts",
+        "webpack.dev.cts",
+        "webpack.dev.mts",
+        "webpack.development.js",
+        "webpack.development.cjs",
+        "webpack.development.mjs",
+        "webpack.development.ts",
+        "webpack.development.cts",
+        "webpack.development.mts",
+        "webpack.config.dev.js",
+        "webpack.config.dev.cjs",
+        "webpack.config.dev.mjs",
+        "webpack.config.dev.ts",
+        "webpack.config.dev.cts",
+        "webpack.config.dev.mts",
+        "webpack.config.dev.babel.js",
+        "webpack.config.dev.babel.ts",
+        "webpack.mix.js",
+        "webpack.mix.cjs",
+        "webpack.mix.mjs",
+        "webpack.mix.ts",
+        "webpack.mix.cts",
+        "webpack.mix.mts",
+        "webpack.prod.js",
+        "webpack.prod.cjs",
+        "webpack.prod.mjs",
+        "webpack.prod.ts",
+        "webpack.prod.cts",
+        "webpack.prod.mts",
+        "webpack.prod.config.js",
+        "webpack.prod.config.cjs",
+        "webpack.prod.config.mjs",
+        "webpack.prod.config.ts",
+        "webpack.prod.config.cts",
+        "webpack.prod.config.mts",
+        "webpack.production.js",
+        "webpack.production.cjs",
+        "webpack.production.mjs",
+        "webpack.production.ts",
+        "webpack.production.cts",
+        "webpack.production.mts",
+        "webpack.server.js",
+        "webpack.server.cjs",
+        "webpack.server.mjs",
+        "webpack.server.ts",
+        "webpack.server.cts",
+        "webpack.server.mts",
+        "webpack.client.js",
+        "webpack.client.cjs",
+        "webpack.client.mjs",
+        "webpack.client.ts",
+        "webpack.client.cts",
+        "webpack.client.mts",
+        "webpack.config.server.js",
+        "webpack.config.server.cjs",
+        "webpack.config.server.mjs",
+        "webpack.config.server.ts",
+        "webpack.config.server.cts",
+        "webpack.config.server.mts",
+        "webpack.config.client.js",
+        "webpack.config.client.cjs",
+        "webpack.config.client.mjs",
+        "webpack.config.client.ts",
+        "webpack.config.client.cts",
+        "webpack.config.client.mts",
+        "webpack.config.production.babel.js",
+        "webpack.config.production.babel.ts",
+        "webpack.config.prod.babel.js",
+        "webpack.config.prod.babel.cjs",
+        "webpack.config.prod.babel.mjs",
+        "webpack.config.prod.babel.ts",
+        "webpack.config.prod.babel.cts",
+        "webpack.config.prod.babel.mts",
+        "webpack.config.prod.js",
+        "webpack.config.prod.cjs",
+        "webpack.config.prod.mjs",
+        "webpack.config.prod.ts",
+        "webpack.config.prod.cts",
+        "webpack.config.prod.mts",
+        "webpack.config.production.js",
+        "webpack.config.production.cjs",
+        "webpack.config.production.mjs",
+        "webpack.config.production.ts",
+        "webpack.config.production.cts",
+        "webpack.config.production.mts",
+        "webpack.config.staging.js",
+        "webpack.config.staging.cjs",
+        "webpack.config.staging.mjs",
+        "webpack.config.staging.ts",
+        "webpack.config.staging.cts",
+        "webpack.config.staging.mts",
+        "webpack.config.babel.js",
+        "webpack.config.babel.ts",
+        "webpack.config.base.babel.js",
+        "webpack.config.base.babel.ts",
+        "webpack.config.base.js",
+        "webpack.config.base.cjs",
+        "webpack.config.base.mjs",
+        "webpack.config.base.ts",
+        "webpack.config.base.cts",
+        "webpack.config.base.mts",
+        "webpack.config.staging.babel.js",
+        "webpack.config.staging.babel.ts",
+        "webpack.config.coffee",
+        "webpack.config.test.js",
+        "webpack.config.test.cjs",
+        "webpack.config.test.mjs",
+        "webpack.config.test.ts",
+        "webpack.config.test.cts",
+        "webpack.config.test.mts",
+        "webpack.config.vendor.js",
+        "webpack.config.vendor.cjs",
+        "webpack.config.vendor.mjs",
+        "webpack.config.vendor.ts",
+        "webpack.config.vendor.cts",
+        "webpack.config.vendor.mts",
+        "webpack.config.vendor.production.js",
+        "webpack.config.vendor.production.cjs",
+        "webpack.config.vendor.production.mjs",
+        "webpack.config.vendor.production.ts",
+        "webpack.config.vendor.production.cts",
+        "webpack.config.vendor.production.mts",
+        "webpack.test.js",
+        "webpack.test.cjs",
+        "webpack.test.mjs",
+        "webpack.test.ts",
+        "webpack.test.cts",
+        "webpack.test.mts",
+        "webpack.dist.js",
+        "webpack.dist.cjs",
+        "webpack.dist.mjs",
+        "webpack.dist.ts",
+        "webpack.dist.cts",
+        "webpack.dist.mts",
+        "webpackfile.js",
+        "webpackfile.cjs",
+        "webpackfile.mjs",
+        "webpackfile.ts",
+        "webpackfile.cts",
+        "webpackfile.mts"
+      ]
+    },
+    {
+      "name": "rsbuild",
+      "fileNames": [
+        "rsbuild.config.mjs",
+        "rsbuild.config.ts",
+        "rsbuild.config.js",
+        "rsbuild.config.cjs",
+        "rsbuild.config.mts",
+        "rsbuild.config.cts"
+      ]
+    },
+    {
+      "name": "rspack",
+      "fileNames": [
+        "rspack.config.js",
+        "rspack.config.ts",
+        "rspack.config.cjs",
+        "rspack.config.mjs"
+      ]
+    },
+    {
+      "name": "rslib",
+      "fileNames": [
+        "rslib.config.mjs",
+        "rslib.config.ts",
+        "rslib.config.js",
+        "rslib.config.cjs",
+        "rslib.config.mts"
+      ]
+    },
+    {
+      "name": "oxlint",
+      "fileNames": [
+        ".oxlintrc.json",
+        ".oxlintignore"
+      ]
+    },
+    {
+      "name": "nx",
+      "fileNames": [
+        ".nxignore",
+        "nx.json"
+      ]
+    },
+    {
+      "name": "yummacss",
+      "fileNames": [
+        "yumma.config.cjs",
+        "yumma.config.js",
+        "yumma.config.mjs",
+        "yumma.config.ts",
+        "yumma.css",
+        "yummacss.css"
+      ]
+    },
+    {
+      "name": "shadcn",
+      "fileNames": [
+        "components.json"
+      ]
+    }
+  ],
+  "folderIcons": [
+    {
+      "name": "folderI18n",
+      "folderNames": [
+        "i18n",
+        "locales"
+      ]
+    },
+    {
+      "name": "folderLock",
+      "folderNames": [
+        ".venv",
+        "auth"
+      ]
+    },
+    {
+      "name": "folderGitlab",
+      "folderNames": [
+        ".gitlab"
+      ]
+    },
+    {
+      "name": "folderCore",
+      "folderNames": [
+        "core"
+      ]
+    },
+    {
+      "name": "folderModels",
+      "folderNames": [
+        "models"
+      ]
+    },
+    {
+      "name": "folderInterfaces",
+      "folderNames": [
+        "interface",
+        "interfaces"
+      ]
+    },
+    {
+      "name": "folderHelpers",
+      "folderNames": [
+        "helpers"
+      ]
+    },
+    {
+      "name": "folderShared",
+      "folderNames": [
+        "shared"
+      ]
+    },
+    {
+      "name": "folderRouter",
+      "folderNames": [
+        "router",
+        "routers",
+        "routes"
+      ]
+    },
+    {
+      "name": "folderModules",
+      "folderNames": [
+        "modules"
+      ]
+    },
+    {
+      "name": "folderAngular",
+      "folderNames": [
+        "angular",
+        ".angular"
+      ]
+    },
+    {
+      "name": "folderServices",
+      "folderNames": [
+        "services",
+        "service"
+      ]
+    },
+    {
+      "name": "folderProviders",
+      "folderNames": [
+        "providers",
+        "provider"
+      ]
+    },
+    {
+      "name": "folderInterceptors",
+      "folderNames": [
+        "interceptors",
+        "interceptor"
+      ]
+    },
+    {
+      "name": "folderPipes",
+      "folderNames": [
+        "pipes",
+        "pipe"
+      ]
+    },
+    {
+      "name": "folderFirebase",
+      "folderNames": [
+        "firebase"
+      ]
+    },
+    {
+      "name": "folderSupabase",
+      "folderNames": [
+        "supabase"
+      ]
+    },
+    {
+      "name": "folderDrizzle",
+      "folderNames": [
+        ".drizzle",
+        "drizzle"
+      ]
+    },
+    {
+      "name": "folderTina",
+      "folderNames": [
+        "tina"
+      ]
+    },
+    {
+      "name": "folderTauri",
+      "folderNames": [
+        "src-tauri",
+        "tauri"
+      ]
+    },
+    {
+      "name": "folderClaude",
+      "folderNames": [
+        ".claude-code",
+        ".claude",
+        "claude",
+        "claude-config",
+        "claude-prompts"
+      ]
+    },
+    {
+      "name": "folderVercel",
+      "folderNames": [
+        ".vercel",
+        "vercel"
+      ]
+    },
+    {
+      "name": "folderTarget",
+      "folderNames": [
+        "target"
+      ]
+    },
+    {
+      "name": "folderIOS",
+      "folderNames": [
+        "ios"
+      ]
+    },
+    {
+      "name": "folderContext",
+      "folderNames": [
+        "context",
+        "contexts"
+      ]
+    },
+    {
+      "name": "folderMiddleware",
+      "folderNames": [
+        "middleware",
+        "middlewares"
+      ]
+    },
+    {
+      "name": "folderSkyCode",
+      "folderNames": [
+        "pages",
+        "screens"
+      ]
+    },
+    {
+      "name": "folderUtils",
+      "folderNames": [
+        "util",
+        "utils",
+        "utility",
+        "utilities",
+        "tools",
+        "lib"
+      ]
+    },
+    {
+      "name": "folderDatabase",
+      "folderNames": [
+        "db",
+        "database",
+        "databases"
+      ]
+    },
+    {
+      "name": "folderLayout",
+      "folderNames": [
+        "layouts",
+        "layout"
+      ]
+    },
+    {
+      "name": "folderDocker",
+      "folderNames": [
+        "docker",
+        "docker-compose",
+        "dockerfiles",
+        ".docker"
+      ]
+    },
+    {
+      "name": "folderRed",
+      "folderNames": [
+        ".git",
+        "api",
+        ".turbo"
+      ]
+    },
+    {
+      "name": "folderGraphql",
+      "folderNames": [
+        "graphql",
+        "gql"
+      ]
+    },
+    {
+      "name": "folderApp",
+      "folderNames": [
+        "app",
+        "apps"
+      ]
+    },
+    {
+      "name": "folderConfig",
+      "folderNames": [
+        "config"
+      ]
+    },
+    {
+      "name": "folderGreen",
+      "folderNames": [
+        "env",
+        ".nuxt"
+      ]
+    },
+    {
+      "name": "folderOrange",
+      "folderNames": [
+        "server"
+      ]
+    },
+    {
+      "name": "folderBlue",
+      "folderNames": [
+        "client"
+      ]
+    },
+    {
+      "name": "folderPurpleCode",
+      "folderNames": [
+        "css",
+        "styles"
+      ]
+    },
+    {
+      "name": "folderRedCode",
+      "folderNames": [
+        "scripts",
+        "test",
+        "tests",
+        "spec",
+        "specs"
+      ]
+    },
+    {
+      "name": "folderPinkOutline",
+      "folderNames": [
+        "storybook"
+      ]
+    },
+    {
+      "name": "folderPinkCode",
+      "folderNames": [
+        "stories"
+      ]
+    },
+    {
+      "name": "folderBlueCode",
+      "folderNames": [
+        "types"
+      ]
+    },
+    {
+      "name": "folderPink",
+      "folderNames": [
+        ".storybook"
+      ]
+    },
+    {
+      "name": "folderVSCode",
+      "folderNames": [
+        ".vscode"
+      ]
+    },
+    {
+      "name": "folderGray",
+      "folderNames": [
+        ".next",
+        ".nx"
+      ]
+    },
+    {
+      "name": "folderPurple",
+      "folderNames": [
+        ".contentlayer"
+      ]
+    },
+    {
+      "name": "folderNodeModules",
+      "folderNames": [
+        "node_modules"
+      ]
+    },
+    {
+      "name": "folderAws",
+      "folderNames": [
+        "aws"
+      ]
+    },
+    {
+      "name": "folderAzure",
+      "folderNames": [
+        ".azure"
+      ]
+    },
+    {
+      "name": "folderNginx",
+      "folderNames": [
+        "nginx"
+      ]
+    },
+    {
+      "name": "folderReact",
+      "folderNames": [
+        "react"
+      ]
+    },
+    {
+      "name": "folderGithub",
+      "folderNames": [
+        ".github"
+      ]
+    },
+    {
+      "name": "folderPurpleOutline",
+      "folderNames": [
+        "public",
+        "dist",
+        "out"
+      ]
+    },
+    {
+      "name": "folderOrangeCode",
+      "folderNames": [
+        "source",
+        "src"
+      ]
+    },
+    {
+      "name": "folderDocuments",
+      "folderNames": [
+        "doc",
+        "docs",
+        "documents",
+        "documentation",
+        "files"
+      ]
+    },
+    {
+      "name": "folderBuild",
+      "folderNames": [
+        "build"
+      ]
+    },
+    {
+      "name": "folderAssets",
+      "folderNames": [
+        "assets",
+        "resources",
+        "static"
+      ]
+    },
+    {
+      "name": "folderGreenCode",
+      "folderNames": [
+        "components"
+      ]
+    },
+    {
+      "name": "folderPrisma",
+      "folderNames": [
+        "prisma"
+      ]
+    },
+    {
+      "name": "folderAndroid",
+      "folderNames": [
+        "android"
+      ]
+    },
+    {
+      "name": "folderMail",
+      "folderNames": [
+        "mail",
+        "mails",
+        "emails",
+        "smtp",
+        "mailers"
+      ]
+    },
+    {
+      "name": "folderImages",
+      "folderNames": [
+        "image",
+        "images"
+      ]
+    },
+    {
+      "name": "folderBruno",
+      "folderNames": [
+        ".bru",
+        "bru"
+      ]
+    },
+    {
+      "name": "folderMongoDB",
+      "folderNames": [
+        "mongo",
+        "mongodb"
+      ]
+    },
+    {
+      "name": "folderHooks",
+      "folderNames": [
+        "hooks"
+      ]
+    },
+    {
+      "name": "folderConstants",
+      "folderNames": [
+        "constants"
+      ]
+    },
+    {
+      "name": "folderExpo",
+      "folderNames": [
+        "expo",
+        ".expo"
+      ]
+    },
+    {
+      "name": "folderGradle",
+      "folderNames": [
+        "gradle",
+        ".gradle"
+      ]
+    },
+    {
+      "name": "folderFonts",
+      "folderNames": [
+        "fonts",
+        "font"
+      ]
+    },
+    {
+      "name": "folderJs",
+      "folderNames": [
+        "js",
+        "javascript"
+      ]
+    },
+    {
+      "name": "folderSass",
+      "folderNames": [
+        "sass",
+        "scss"
+      ]
+    }
+  ]
 }
